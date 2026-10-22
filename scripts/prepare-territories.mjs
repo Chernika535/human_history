@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+const ctx={};vm.createContext(ctx);vm.runInContext(fs.readFileSync('dist/vendor/d3.min.js','utf8'),ctx);const {d3}=ctx;
+const dir='dist/data/territories';const years=[];
+const normPoly=coords=>{const g={type:'Polygon',coordinates:coords};return d3.geoArea(g)>2*Math.PI?coords.map(r=>r.slice().reverse()):coords;};
+for(const file of fs.readdirSync(dir)){if(!file.endsWith('.geojson'))continue;const d=JSON.parse(fs.readFileSync(`${dir}/${file}`));for(const f of d.features){if(f.geometry.type==='Polygon')f.geometry.coordinates=normPoly(f.geometry.coordinates);else if(f.geometry.type==='MultiPolygon')f.geometry.coordinates=f.geometry.coordinates.map(normPoly);f.properties.anchor=d3.geoCentroid(f.geometry).map(n=>+n.toFixed(3));}fs.writeFileSync(`${dir}/${file}`,JSON.stringify(d)+'\n');years.push({year:d.year,file});}
+years.sort((a,b)=>a.year-b.year);
+const manifest={schemaVersion:1,source:'André Ourednik and contributors · Historical Basemaps',sourceUrl:'https://github.com/aourednik/historical-basemaps',commit:'da7a4b735ecef70aebdc9c73e409d8a2500d50f3',license:'GPL-3.0',licenseFile:'data/TERRITORY-LICENSE',processing:'Coordinates rounded to 0.001 degrees, Douglas–Peucker simplification 0.025 degrees; spherical ring orientation normalized. Regional-scale draft: shared boundaries may have simplification gaps.',coverage:'Dated reconstructions, not annually verified borders. At intermediate years the most recent earlier snapshot is displayed with its actual date. No geometric interpolation.',snapshots:years};fs.writeFileSync('dist/data/territories/index.json',JSON.stringify(manifest,null,2)+'\n');console.log(years.length,'dated snapshots normalized.');
