@@ -1,0 +1,4 @@
+import fs from 'node:fs';import vm from 'node:vm';import {buildReadingRegions} from '../dist/landscapes.js';import {regionAt,regions} from '../dist/regional-history.js';
+const c={};vm.createContext(c);vm.runInContext(fs.readFileSync(new URL('../dist/vendor/d3.min.js',import.meta.url),'utf8'),c);const land=JSON.parse(fs.readFileSync(new URL('../dist/data/land.geojson',import.meta.url)));const collection=buildReadingRegions();
+for(const f of collection.features){let best=null;for(const p of f.geometry.coordinates){const r=p[0],a=[(r[0][0]+r[2][0])/2,(r[0][1]+r[2][1])/2];if(c.d3.geoContains(land,a)&&regionAt(a).id===f.properties.regionId){best=a;break;}}f.properties.anchor=best||c.d3.geoCentroid(f);f.properties.name=f.properties.title=regions.find(r=>r.id===f.properties.regionId).name;}
+fs.writeFileSync(new URL('../dist/data/reading-regions.geojson',import.meta.url),JSON.stringify(collection)+'\n');console.log(collection.features.length+' reading regions');

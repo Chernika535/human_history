@@ -48,3 +48,8 @@
 }
 @media(max-width:760px) and (max-height:700px){.scene-heading{display:none}.world-top{top:198px}#worldDate{font-size:30px}.world-top>.eyebrow{display:none}.gesture-hint{display:none}.globe-tools{bottom:199px}.floating-panel{max-height:calc(100dvh - 260px)}.timeline-bottom{display:none}}
 @media(min-width:761px) and (max-height:600px){.time-panel{padding:10px 18px}.scene-heading p{display:none}.scene-caption{display:none}.territory-bar{top:66px}.floating-panel{bottom:150px}.timeline-bottom{display:none}}
+.language-control{display:inline-flex;align-items:center}.language-control select{min-height:36px;width:62px;border-radius:18px;padding:7px 9px;background:#173354;color:#fff2d5;font-size:12px;border:1px solid #9bbce355}.area-measure{font-size:13px;color:#c5dff8}.language-control select:focus-visible{outline:2px solid var(--gold);outline-offset:3px}@media(max-width:760px){.language-control select{width:55px;font-size:12px;min-height:36px;padding:7px}.header-actions{gap:1px}.header{padding-left:15px;padding-right:10px}.brand{letter-spacing:2px}.brand small{letter-spacing:.8px}}
+
+.tradition-entry+.tradition-entry{border-top:1px solid #acc6df33;margin-top:24px;padding-top:20px}.tradition-entry h3{font-family:"Golos Text",sans-serif;font-size:17px;line-height:1.5;color:#fff}.tradition-entry h3 i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:9px}.tradition-entry .source-link{font-size:12px}
+
+.map-meaning{display:block;margin:0 auto 4px;padding:2px 8px;color:#ffd08c;font-size:11px;text-decoration:underline;text-underline-offset:3px}.gesture-hint .map-meaning{pointer-events:auto}

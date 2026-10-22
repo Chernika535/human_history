@@ -1,0 +1,5 @@
+Cliopatria · Seshat Global History Databank
+Source commit: 5f433377139a6eeaeacbdc894b70f8805b72c8b5
+https://github.com/Seshat-Global-History-Databank/cliopatria
+CC BY 4.0 · https://creativecommons.org/licenses/by/4.0/
+Adaptation: polygons simplified (0.035 degrees), coordinates rounded (0.001 degrees), spherical ring orientation normalized, split by time intervals. Dates and identities retained; alliance/composite RELATION rows excluded from the polity fill. These are approximate reconstructions, not surveyed annual borders.
