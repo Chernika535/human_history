@@ -4,7 +4,7 @@ import {configureTranslations,getLanguage,setLanguage,translateText as tx,transl
 import {PolityStore,searchCatalog,factsForYear} from './polities.js';
 import {narrativeForArea} from './area-history.js';
 import {contextAt,regionAt} from './regional-history.js';
-import {Globe} from './globe.js?v=0.6.0';
+import {Globe} from './globe.js?v=0.6.1';
 import {TerritoryStore,areaName,areaColor,cultureForArea,religionFeatures,normalizeGeometry,nameIsTranscribed,setMapLanguage} from './territories.js?v=0.6.0';
 import {MIN_YEAR,MAX_YEAR,epochs,formatYear,activeAt,yearToPosition,positionToYear,parseYear,matches,activeRelations} from './core.js';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
