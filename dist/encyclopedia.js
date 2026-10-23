@@ -1,4 +1,4 @@
-import {unpackBundle} from './polities.js?v=0.11.0';
+import {unpackBundle} from './polities.js?v=0.11.1';
 // Independently licensed, attributed historical prose is loaded only when a card opens.
 export class EncyclopediaStore {
  constructor(index,fetcher=url=>fetch(url)){this.index=index;this.fetcher=fetcher;this.cache=new Map();this.pending=new Map();}

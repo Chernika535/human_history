@@ -1,5 +1,5 @@
-import {contextAt} from './regional-history.js?v=0.11.0';
-import {landscapeFeatures} from './landscapes.js?v=0.11.0';
+import {contextAt} from './regional-history.js?v=0.11.1';
+import {landscapeFeatures} from './landscapes.js?v=0.11.1';
 const source=(title,url)=>({title,url});
 export const beliefSources={
  ritual:source('Погребения и символические практики · Смитсоновский институт','https://humanorigins.si.edu/evidence/behavior/burial'),

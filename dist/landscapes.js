@@ -1,4 +1,4 @@
-import {regionAt,contextAt} from './regional-history.js?v=0.11.0';
+import {regionAt,contextAt} from './regional-history.js?v=0.11.1';
 // Reading regions, not settlement-density estimates or the territory of an ethnicity.
 // A start date means evidence exists in part of the region, never every point.
 export const evidenceFrom={iceland:800,hawaii:1000,greenland:-2500,svalbard:1596,antarctica:1820,nz:1250,australia:-65000,'new-guinea':-45000,pacific:-2000,arctic:-20000,'north-america':-14000,mesoamerica:-14000,caribbean:-5000,andes:-14000,amazon:-14000,'southern-america':-14000,nile:-100000,'north-africa':-100000,'west-africa':-100000,'east-africa':-100000,'central-africa':-100000,'southern-africa':-100000,madagascar:500,europe:-100000,'west-asia':-100000,siberia:-40000,steppe:-40000,'south-asia':-100000,'east-asia':-100000,'southeast-asia':-100000};

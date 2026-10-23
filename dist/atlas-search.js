@@ -5,8 +5,9 @@ export function searchAtlas(entries,query,year,limit=60){const q=normalizeSearch
 export function namedBorderNeighbours(feature,features){
  if(!feature?.geometry||feature.properties.background)return [];
  const rings=g=>g.type==='Polygon'?g.coordinates:g.type==='MultiPolygon'?g.coordinates.flat():[];
- const point=([x,y])=>x.toFixed(3)+','+y.toFixed(3),vertices=new Set(rings(feature.geometry).flat().map(point));
- // Require a shared border segment, not a nearby centroid or a single meeting point.
- const touching=g=>rings(g).some(r=>r.some((p,i)=>i>0&&vertices.has(point(p))&&vertices.has(point(r[i-1]))&&point(p)!==point(r[i-1])));
+ const point=([x,y])=>x.toFixed(3)+','+y.toFixed(3),edge=(a,b)=>[point(a),point(b)].sort().join('|'),edges=new Set();
+ for(const r of rings(feature.geometry))for(let i=1;i<r.length;i++)if(point(r[i])!==point(r[i-1]))edges.add(edge(r[i],r[i-1]));
+ // Both polygons must actually contain the same segment, not just its two endpoints.
+ const touching=g=>rings(g).some(r=>r.some((p,i)=>i>0&&point(p)!==point(r[i-1])&&edges.has(edge(p,r[i-1]))));
  return features.filter(f=>f.id!==feature.id&&!f.properties.background&&f.properties.name!==feature.properties.name&&touching(f.geometry));
 }
