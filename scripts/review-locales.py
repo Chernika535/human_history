@@ -224,4 +224,5 @@ for k,v in values.items():
  if '↗' in k:v=v.replace('⁇','↗')
  if '↔' in k:v=v.replace('⁇','↔')
  values[k]=v
+overrides.update({'Перемещение материалов':'Movement of materials','ФРГ · послевоенное восстановление':'West Germany · postwar reconstruction','Каниш · Кюльтепе':'Kanesh · Kültepe','Дильмун · Бахрейн':'Dilmun · Bahrain','Маган · Оманский полуостров':'Magan · Oman Peninsula','Материал и находки':'Material and finds','Что можно заключить':'What the evidence supports','Что известно о передаче':'What is known about transfer'})
 values.update(overrides);path.write_text(json.dumps(values,ensure_ascii=False,indent=1)+'\n');(root/'dist/locales/en-overrides.json').write_text(json.dumps(overrides,ensure_ascii=False,indent=1)+'\n');print('reviewed overrides',len(overrides),'total',len(values))

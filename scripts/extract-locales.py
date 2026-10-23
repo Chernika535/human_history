@@ -22,7 +22,7 @@ def descend(j):
   for v in j:descend(v)
  elif isinstance(j,dict):
   for v in j.values():descend(v)
-for p in [root/'dist/data/history.json',root/'dist/data/editorial-areas.geojson']:descend(json.loads(p.read_text()))
+for p in [root/'dist/data/history.json',root/'dist/data/relation-atlas.json',root/'dist/data/editorial-areas.geojson']:descend(json.loads(p.read_text()))
 markup((root/'dist/index.html').read_text())
 parser=Parser(Language(js.language()))
 for name in ['app.js','core.js','globe.js','regional-history.js','area-history.js','landscapes.js','world-beliefs.js','relations.js']:

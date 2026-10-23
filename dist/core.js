@@ -1,4 +1,4 @@
-import {getLanguage,englishText} from './i18n.js?v=0.7.0';
+import {getLanguage,englishText} from './i18n.js?v=0.8.0';
 export const MIN_YEAR=-100000, MAX_YEAR=2025;
 export const epochs=[{name:'Охотники и собиратели',year:-40000},{name:'Первые земледельцы',year:-8500},{name:'Первые города',year:-3500},{name:'Бронзовый век',year:-2560},{name:'Железный век',year:-1200},{name:'Античность',year:100},{name:'Раннее Средневековье',year:750},{name:'Средневековье',year:1250},{name:'Раннее Новое время',year:1600},{name:'Индустриальная эпоха',year:1850},{name:'XX–XXI века',year:1960}];
 export const anchors=[-100000,-40000,-12000,-8000,-4000,-2000,-1000,1,500,1000,1500,1800,1900,2025];
