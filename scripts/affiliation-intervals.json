@@ -1,0 +1,866 @@
+[
+ {
+  "parent": "(British Empire)",
+  "child": "British Africa",
+  "periods": [
+   [
+    1885,
+    1960
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "British Cape Colony",
+  "periods": [
+   [
+    1796,
+    1884
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "British Ceylon",
+  "periods": [
+   [
+    1796,
+    1814
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "British East Africa",
+  "periods": [
+   [
+    1961,
+    1972
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "British Gold Coast",
+  "periods": [
+   [
+    1873,
+    1960
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "British Raj",
+  "periods": [
+   [
+    1859,
+    1947
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "Freetown Colony",
+  "periods": [
+   [
+    1788,
+    1796
+   ]
+  ]
+ },
+ {
+  "parent": "(British Empire)",
+  "child": "Trucial States",
+  "periods": [
+   [
+    1820,
+    1852
+   ],
+   [
+    1856,
+    1894
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "(Kingdom of the Franks)",
+  "periods": [
+   [
+    718,
+    849
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "East Franks",
+  "periods": [
+   [
+    850,
+    881
+   ],
+   [
+    887,
+    910
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "Kingdom of Lower Burgundy",
+  "periods": [
+   [
+    900,
+    910
+   ],
+   [
+    926,
+    935
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "Kingdom of the Franks",
+  "periods": [
+   [
+    718,
+    849
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "Middle Franks",
+  "periods": [
+   [
+    850,
+    859
+   ],
+   [
+    899,
+    899
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "Upper Burgundy",
+  "periods": [
+   [
+    887,
+    921
+   ],
+   [
+    926,
+    959
+   ]
+  ]
+ },
+ {
+  "parent": "(Carolingian Empire)",
+  "child": "West Franks",
+  "periods": [
+   [
+    850,
+    989
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "(Kingdom of Bohemia)",
+  "periods": [
+   [
+    1202,
+    1452
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Ambrosian Republic",
+  "periods": [
+   [
+    1450,
+    1452
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "County of Brabant",
+  "periods": [
+   [
+    1260,
+    1430
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "County of Holland",
+  "periods": [
+   [
+    1260,
+    1362
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "County of Savoy",
+  "periods": [
+   [
+    1260,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Duchy of Bavaria",
+  "periods": [
+   [
+    1260,
+    1325
+   ],
+   [
+    1352,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Duchy of Lorraine",
+  "periods": [
+   [
+    1431,
+    1439
+   ],
+   [
+    1453,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Duchy of Luxembourg",
+  "periods": [
+   [
+    1429,
+    1449
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Duchy of Milan",
+  "periods": [
+   [
+    1402,
+    1449
+   ],
+   [
+    1453,
+    1462
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Duchy of Styria",
+  "periods": [
+   [
+    1260,
+    1271
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Electorate of Brandenburg",
+  "periods": [
+   [
+    1422,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Electorate of Saxony",
+  "periods": [
+   [
+    1363,
+    1428
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Electorate of Trier",
+  "periods": [
+   [
+    1333,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Free County of Burgundy",
+  "periods": [
+   [
+    1333,
+    1384
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Kingdom of Arles",
+  "periods": [
+   [
+    1010,
+    1033
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Kingdom of Bohemia",
+  "periods": [
+   [
+    1202,
+    1452
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Kingdom of Germany",
+  "periods": [
+   [
+    922,
+    961
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Margraviate of Brandenburg",
+  "periods": [
+   [
+    1260,
+    1351
+   ],
+   [
+    1385,
+    1414
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Margraviate of Moravia",
+  "periods": [
+   [
+    1385,
+    1414
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Patriarchate of Aquileia",
+  "periods": [
+   [
+    1260,
+    1449
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Principality of Orange",
+  "periods": [
+   [
+    1260,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Republic of Florence",
+  "periods": [
+   [
+    1260,
+    1486
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Swiss Confederation",
+  "periods": [
+   [
+    1294,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Holy Roman Empire)",
+  "child": "Teutonic Order",
+  "periods": [
+   [
+    1236,
+    1458
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Angevin Empire",
+  "periods": [
+   [
+    1147,
+    1151
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Angevins",
+  "periods": [
+   [
+    1126,
+    1146
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Capetian House of Anjou",
+  "periods": [
+   [
+    1250,
+    1384
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Anjou",
+  "periods": [
+   [
+    990,
+    1125
+   ],
+   [
+    1294,
+    1332
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Armagnac",
+  "periods": [
+   [
+    1206,
+    1362
+   ],
+   [
+    1375,
+    1496
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Artois",
+  "periods": [
+   [
+    1241,
+    1332
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Auvergne",
+  "periods": [
+   [
+    1206,
+    1351
+   ],
+   [
+    1363,
+    1406
+   ],
+   [
+    1440,
+    1501
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Blôis",
+  "periods": [
+   [
+    990,
+    1401
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Boulogne",
+  "periods": [
+   [
+    1188,
+    1235
+   ],
+   [
+    1241,
+    1259
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Béarn",
+  "periods": [
+   [
+    1385,
+    1452
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Champagne",
+  "periods": [
+   [
+    990,
+    1027
+   ],
+   [
+    1040,
+    1065
+   ],
+   [
+    1094,
+    1125
+   ],
+   [
+    1152,
+    1284
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Flanders",
+  "periods": [
+   [
+    990,
+    1384
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Foix",
+  "periods": [
+   [
+    1236,
+    1555
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Maine",
+  "periods": [
+   [
+    990,
+    1055
+   ],
+   [
+    1450,
+    1481
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Nevers",
+  "periods": [
+   [
+    1010,
+    1271
+   ],
+   [
+    1285,
+    1325
+   ],
+   [
+    1407,
+    1520
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Poitou",
+  "periods": [
+   [
+    1206,
+    1249
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Périgord",
+  "periods": [
+   [
+    1206,
+    1362
+   ],
+   [
+    1385,
+    1401
+   ],
+   [
+    1440,
+    1481
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Rouergue",
+  "periods": [
+   [
+    990,
+    1065
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Toulouse",
+  "periods": [
+   [
+    990,
+    1215
+   ],
+   [
+    1220,
+    1226
+   ],
+   [
+    1236,
+    1249
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Touraine",
+  "periods": [
+   [
+    1206,
+    1304
+   ],
+   [
+    1363,
+    1491
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Vermandois",
+  "periods": [
+   [
+    990,
+    1168
+   ],
+   [
+    1188,
+    1215
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "County of Vexin",
+  "periods": [
+   [
+    990,
+    1084
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Dauphiné",
+  "periods": [
+   [
+    1260,
+    1351
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Duchy of Aquitaine",
+  "periods": [
+   [
+    990,
+    1138
+   ],
+   [
+    1206,
+    1362
+   ],
+   [
+    1375,
+    1439
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Duchy of Brittany",
+  "periods": [
+   [
+    990,
+    1187
+   ],
+   [
+    1206,
+    1428
+   ],
+   [
+    1440,
+    1491
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Duchy of Burgundy",
+  "periods": [
+   [
+    1003,
+    1017
+   ],
+   [
+    1385,
+    1481
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Duchy of Gascony",
+  "periods": [
+   [
+    990,
+    1065
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Duchy of Normandy",
+  "periods": [
+   [
+    990,
+    1065
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "French Colony of Guiana",
+  "periods": [
+   [
+    1791,
+    1791
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "French India",
+  "periods": [
+   [
+    1673,
+    1814
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "Kingdom of Arles",
+  "periods": [
+   [
+    1034,
+    1384
+   ]
+  ]
+ },
+ {
+  "parent": "(Kingdom of France)",
+  "child": "New France",
+  "periods": [
+   [
+    1609,
+    1791
+   ]
+  ]
+ },
+ {
+  "parent": "(Portuguese Empire)",
+  "child": "Portuguese Africa",
+  "periods": [
+   [
+    1507,
+    1581
+   ]
+  ]
+ },
+ {
+  "parent": "(Portuguese Empire)",
+  "child": "Portuguese Ceylon",
+  "periods": [
+   [
+    1507,
+    1686
+   ]
+  ]
+ },
+ {
+  "parent": "(Portuguese Empire)",
+  "child": "Portuguese Colonies",
+  "periods": [
+   [
+    1564,
+    1910
+   ]
+  ]
+ }
+]

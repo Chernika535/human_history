@@ -59,3 +59,32 @@
 .focus-mode .relation-key{opacity:1;pointer-events:auto;transform:translateX(-50%)}
 
 .relation-line.cultural{border-top-style:dashed}.relation-line.diplomatic,.relation-line.material{border-top-style:dotted}.relation-key{max-width:min(94%,740px)}.relation-key button{min-height:30px;padding:5px 8px}.relation-key [data-relation-type=diplomatic]{max-width:210px}@media(max-width:760px){.relation-key{width:94%;gap:0;bottom:185px}.relation-key button{font-size:9px;padding:4px 6px;min-height:28px}.relation-key .relation-line{width:17px}.relation-key [data-relation-type=diplomatic]{max-width:190px}}
+
+/* Daylight atlas: paper, blue ink, and a pale ocean. */
+:root{color-scheme:dark}.theme-toggle{font-size:25px;line-height:1}.theme-toggle span{display:block}
+:root[data-theme="light"]{color-scheme:light;--bg:#edf3f8;--panel:#f8fafc;--paper:#142c45;--ink:#142c45;--muted:#425e79;--line:#35597838;--gold:#82551b;--green:#227244}
+[data-theme="light"] .world{background:radial-gradient(ellipse at 50% 43%,#ffffff 0,#e3eef6 48%,#cddfeb 100%)}
+[data-theme="light"] .header{background:linear-gradient(#edf3f8fa,#edf3f800)}
+[data-theme="light"] :is(.tool-rail,.globe-tools .icon-button,.territory-bar,.floating-panel,.year-popover,.legend-popover,dialog,.time-panel,.gesture-hint){background:#f8fafcf5;border-color:#54758d55;box-shadow:0 12px 45px #23445e24}
+[data-theme="light"] :is(.brand small,.icon-button,.rail-button,.globe-tools .icon-button,.header nav button,.share-button,.scene-heading p,.world-top>.eyebrow,.scene-heading .eyebrow,.date-footnote,.time-title,.timeline-bottom,.timeline-bottom button,.timeline-ticks span,.detail .period,.summary,.detail .summary,.chapter>summary,.chapter-body,.chapter-body dd,.chapter-body p,.event p,.culture-row strong,.culture-row small,.group-count,.map-legend span,.map-legend p,.empty,.layer-options label,.layer-options select,.relation-key button,.map-legend button[data-relation-type],.tradition-entry h3,.area-measure){color:var(--ink)}
+[data-theme="light"] :is(.detail-top,.type-label,.source-link,.secondary,.text-button,.territory-bar button,.scene-caption p,.scene-caption button,.scene-caption .eyebrow,.related-place,.settlement-status,.map-meaning){color:#704b16}
+[data-theme="light"] :is(.uncertainty,.context-note,.panel-footnote,.map-note,.chapter-body dt,.list-heading .eyebrow,.panel-header .eyebrow,.popover-heading .eyebrow){color:#425e79}
+[data-theme="light"] :is(.scene-heading h1,.scene-caption p){text-shadow:0 1px 12px #ffffffbb}
+[data-theme="light"] :is(.rail-button.active,.rail-button[aria-expanded=true],.relation-key button[aria-pressed=true],.map-legend button[aria-pressed=true]){background:#d6e6f4;color:#173858;box-shadow:inset 0 0 0 1px #6586a6}
+[data-theme="light"] :is(.search,.share-input,select,.language-control select,.year-input input){background:#fff;color:#183851;border-color:#6d8ba555}
+[data-theme="light"] .search input::placeholder{color:#59728a}[data-theme="light"] .search input{color:#183851}
+[data-theme="light"] :is(.panel-close,.context-badge){background:#e0edf8;color:#234c70}
+[data-theme="light"] .culture-row:hover{background:#c4daed66}[data-theme="light"] .culture-row.selected{background:#c4daedaa}
+[data-theme="light"] .primary{background:#1c527c;color:#fff}[data-theme="light"] .primary:hover{background:#164269}
+[data-theme="light"] #modalContent :is(p,li){color:#23415d}
+[data-theme="light"] .tooltip{background:#f8fafcfa;color:#142c45;border-color:#4b6d8b66}
+[data-theme="light"] .ambient-stars{opacity:.06}[data-theme="light"] dialog::backdrop{background:#24456166}
+[data-theme="light"] [data-relation-type=trade]{--link-color:#007587!important}[data-theme="light"] [data-relation-type=colonial]{--link-color:#ad3e2d!important}
+[data-theme="light"] .relation-line.trade{border-color:#007587}[data-theme="light"] .relation-line.colonial{border-color:#ad3e2d}[data-theme="light"] .relation-line.cultural{border-color:#806000}[data-theme="light"] .relation-line.diplomatic{border-color:#6e43b2}[data-theme="light"] .relation-line.material{border-color:#245fa8}[data-theme="light"] .relation-line.political{border-color:#227244}
+@media(max-width:400px){.header .brand{font-size:22px;letter-spacing:1px}.header .brand small{font-size:6px}.header .brand-mark{width:29px;height:29px}.header-actions .icon-button{width:32px}.header-actions{gap:0}.language-control select{width:46px}}
+
+.relation-line.political{border-top-style:dashed}
+
+[data-theme="light"] .chapter .eyebrow[style]{color:#234c70!important}
+
+[data-theme="light"] #toast{background:#f8fafcfa;color:#183851;border-color:#55789566}

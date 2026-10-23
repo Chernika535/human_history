@@ -5,3 +5,16 @@ test('все интервалы входят в периоды участник�
 test('каждая навигационная эпоха имеет действующие связи; ранний бронзовый век не пуст',()=>{for(const epoch of epochs)assert.ok(activeRelations(data,epoch.year).length>0,`${epoch.name}:${epoch.year}`);for(const year of [-80000,-20000,-7000,-1592,-1500,446,1000,1400,1900,1943,2000,2025])assert.ok(activeRelations(data,year).length>0,String(year));assert.ok(activeRelations(data,1250).length>=10);});
 test('глобальные связи охватывают Америку, Океанию, Африку, Азию и Европу',()=>{for(const region of ['Африка','Азия','Европа','Америка','Океания'])assert.ok(atlas.nodes.some(n=>n.region===region&&atlas.relations.some(r=>r.from===n.id||r.to===n.id)),region);for(const type of Object.keys(relationStyles))assert.ok(data.relations.some(r=>r.type===type),type);});
 test('письмо и кораблекрушение не растягиваются на произвольные века, происхождение материала не становится доказанной торговлей',()=>{const wreck=atlas.relations.find(r=>r.id==='cyprus-uluburun');assert.equal(wreck.start,-1335);assert.equal(wreck.end,-1305);assert.equal(wreck.type,'material');assert.match(wreck.periodNote,/кораблекрушения/);const obsidian=atlas.relations.find(r=>r.id==='obsidian-hopewell');assert.equal(obsidian.type,'material');assert.match(obsidian.returns,/не обязательно/);assert.ok(!activeRelations(data,1100).some(r=>r.id==='eu-korea-agreement'));assert.ok(!activeRelations(data,1948).some(r=>r.id==='nato-us-uk'));assert.ok(!activeRelations(data,2018).some(r=>r.id==='eu-japan-agreement'));});
+
+test('расширение сохраняет даты вступления и выхода и отличает участие от двустороннего контакта',()=>{
+ const at=(year,id)=>activeRelations(data,year).some(r=>r.id===id);
+ assert.ok(data.relations.length>=400);assert.ok(activeRelations(data,1250).length>=30);assert.ok(activeRelations(data,1700).length>=25);assert.ok(activeRelations(data,2025).length>=150);
+ assert.equal(at(2022,'org:nato:fi'),false);assert.equal(at(2023,'org:nato:fi'),true);assert.equal(at(2021,'org:eec-eu:uk'),false);assert.equal(at(2019,'org:eec-eu:uk'),true);
+ assert.equal(at(2016,'org:au:ma'),false);assert.equal(at(2017,'org:au:ma'),true);assert.equal(at(2001,'org:au:ke'),false);assert.equal(at(2002,'org:au:ke'),true);
+ assert.equal(at(2022,'org:rcep:id'),false);assert.equal(at(2023,'org:rcep:id'),true);assert.equal(at(2018,'org:cptpp:pe'),false);assert.equal(at(2021,'org:cptpp:pe'),true);
+ assert.equal(data.relations.filter(r=>r.id.startsWith('org:au:')).length,55);
+ for(const r of atlas.relations.filter(r=>r.id.startsWith('org:')))assert.match(r.periodNote,/не отдельный двусторонний договор/);
+ assert.ok(!atlas.nodes.some(n=>/Mahajanapadas|Warring States/.test(n.aliases||n.name)));
+});
+
+test('все новые описания и имена имеют английскую редакцию',()=>{const dictionary=read('../locales/en.json');function visit(x){if(typeof x==='string'&&/[А-Яа-яЁё]/.test(x)){assert.ok(dictionary[x],x);assert.ok(!/[А-Яа-яЁё]/.test(dictionary[x]),x);}else if(x&&typeof x==='object')Object.values(x).forEach(visit);}visit(atlas);});

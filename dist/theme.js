@@ -1,0 +1,6 @@
+// An explicit preference survives reloads; switching never recreates the globe.
+export function getTheme(){return typeof document!=='undefined'&&document.documentElement?.dataset.theme==='light'?'light':'dark';}
+export function setTheme(value){const theme=value==='light'?'light':'dark';if(typeof document!=='undefined'){if(document.documentElement)document.documentElement.dataset.theme=theme;document.querySelector('meta[name="theme-color"]')?.setAttribute('content',theme==='light'?'#edf3f8':'#091426');}try{localStorage.setItem('chronos-theme',theme);}catch{}return theme;}
+export function restoreTheme(){let saved;try{saved=localStorage.getItem('chronos-theme');}catch{}return setTheme(saved);}
+export const globePalette={dark:{sea:['#214e75','#123c60','#081f3b'],land:['#79a9ae','#5f939f','#37687b'],label:'#e5edc4',selected:'#f5f6d4',shadow:'#071d24',graticule:'#c3c7a320',border:'#102d49',shade:'#04132785'},light:{sea:['#d8eefb','#b9ddee','#91bdd6'],land:['#f2eed9','#e2dfc6','#c7d0b9'],label:'#123653',selected:'#0a2944',shadow:'#ffffff',graticule:'#345b8038',border:'#234967',shade:'#345b8020'}};
+export const lightRelationColors={trade:'#007587',colonial:'#ad3e2d',cultural:'#806000',diplomatic:'#6e43b2',material:'#245fa8',political:'#227244'};
