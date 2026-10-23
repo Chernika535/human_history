@@ -1,5 +1,5 @@
-import {worldReligionFeatures} from './world-beliefs.js';
-import {namesRu,transcribedNames} from './area-names.js';
+import {worldReligionFeatures} from './world-beliefs.js?v=0.11.0';
+import {namesRu,transcribedNames} from './area-names.js?v=0.11.0';
 // Dated, local territorial layers. No interpolation of historical borders.
 export function snapshotFor(snapshots,year){let found=null;for(const s of snapshots){if(s.year>year)break;found=s;}return found;}
 export function normalizeGeometry(geometry,geoArea){const poly=r=>geoArea({type:'Polygon',coordinates:r})>2*Math.PI?r.map(a=>a.slice().reverse()):r;return {type:geometry.type,coordinates:geometry.type==='Polygon'?poly(geometry.coordinates):geometry.coordinates.map(poly)};}

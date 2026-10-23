@@ -1,0 +1,2824 @@
+{
+ "catalogTotal": 1587,
+ "catalogWithAccount": 1568,
+ "catalogWithTwoRussianParagraphs": 907,
+ "missing": [
+  {
+   "id": "entity:15710324ddc1",
+   "name": "Han",
+   "wikipedia": "Han (state)"
+  },
+  {
+   "id": "entity:867f0bc4882f",
+   "name": "Thebans",
+   "wikipedia": "Theban"
+  },
+  {
+   "id": "entity:f6057f2d12c0",
+   "name": "Kalinga",
+   "wikipedia": "Kalinga"
+  },
+  {
+   "id": "entity:46ce4a9bc074",
+   "name": "Thracian Kingdom",
+   "wikipedia": "Thracian kingdom"
+  },
+  {
+   "id": "entity:9113c6c0c1f9",
+   "name": "Georgia",
+   "wikipedia": "Georgia"
+  },
+  {
+   "id": "entity:8d855d20f1b5",
+   "name": "Turks",
+   "wikipedia": "Turk"
+  },
+  {
+   "id": "entity:f8f8ad8a2bfc",
+   "name": "Rus'",
+   "wikipedia": "Rus"
+  },
+  {
+   "id": "entity:7eb0cee888ab",
+   "name": "Min",
+   "wikipedia": "Min"
+  },
+  {
+   "id": "entity:6c23ddefeb68",
+   "name": "Southern Wu",
+   "wikipedia": "Southern Wu"
+  },
+  {
+   "id": "entity:fb46f9adda91",
+   "name": "Negroponte",
+   "wikipedia": "Negroponte"
+  },
+  {
+   "id": "entity:609b223b01ab",
+   "name": "Mongol Khanate",
+   "wikipedia": "Mongol khanate"
+  },
+  {
+   "id": "entity:0da380e5f1c9",
+   "name": "Kapisa",
+   "wikipedia": "Kapisa"
+  },
+  {
+   "id": "entity:2532e6d73057",
+   "name": "Portuguese Africa",
+   "wikipedia": "Portuguese Africa"
+  },
+  {
+   "id": "entity:99cf6416def3",
+   "name": "Dutch Cape Colony",
+   "wikipedia": "Dutch Cape Coast"
+  },
+  {
+   "id": "entity:314ccd964ef6",
+   "name": "Cambodia",
+   "wikipedia": "Cambodia Middle Period"
+  },
+  {
+   "id": "entity:39c453eabd1e",
+   "name": "Cundinamarca",
+   "wikipedia": "Cundinamarca"
+  },
+  {
+   "id": "entity:1ff16834228f",
+   "name": "Sultanate of Sambaliung",
+   "wikipedia": "id.wikipedia.org/wiki/Kesultanan_Sambaliung"
+  },
+  {
+   "id": "entity:1f3ec8ddb979",
+   "name": "Maderistas",
+   "wikipedia": "List of factions in the Mexican Revolution"
+  },
+  {
+   "id": "entity:57b38bc60507",
+   "name": "Republic of Uryankhay",
+   "wikipedia": "Uryankhay Republic"
+  }
+ ],
+ "shortRussian": [
+  {
+   "id": "entity:c653ae842eb8",
+   "name": "Sumerian City-States"
+  },
+  {
+   "id": "entity:1175fc4c4325",
+   "name": "Elam"
+  },
+  {
+   "id": "entity:6039dea84f5b",
+   "name": "Early Dynastic Period of Egypt"
+  },
+  {
+   "id": "entity:44055291c926",
+   "name": "Gutian Dynasty"
+  },
+  {
+   "id": "entity:5f57503a4ca0",
+   "name": "Middle Kingdom of Egypt"
+  },
+  {
+   "id": "entity:5e1dd28d7050",
+   "name": "Babylonia"
+  },
+  {
+   "id": "entity:69ae5658c73e",
+   "name": "Sixteenth Dynasty of Egypt"
+  },
+  {
+   "id": "entity:92e2a07ef02d",
+   "name": "Neo-Hittite states"
+  },
+  {
+   "id": "entity:c835c9c8653f",
+   "name": "Kingdom of Kush"
+  },
+  {
+   "id": "entity:09a15d87d092",
+   "name": "Kingdom of Judah"
+  },
+  {
+   "id": "entity:aab26fa84c22",
+   "name": "Tabal Kingdom"
+  },
+  {
+   "id": "entity:eb81b2e3a528",
+   "name": "Neo-Assyrian Empire"
+  },
+  {
+   "id": "entity:617756234b83",
+   "name": "Phrygia"
+  },
+  {
+   "id": "entity:f47d030c1105",
+   "name": "Sabaeans"
+  },
+  {
+   "id": "entity:b4d254f86cd6",
+   "name": "Twenty-third Dynasty of Egypt"
+  },
+  {
+   "id": "entity:0331a0045dce",
+   "name": "Qin"
+  },
+  {
+   "id": "entity:1e9ba4336a73",
+   "name": "(Spring and Autumn States)"
+  },
+  {
+   "id": "entity:720aec780226",
+   "name": "Roman Kingdom"
+  },
+  {
+   "id": "entity:f9185e4bc53f",
+   "name": "Qi"
+  },
+  {
+   "id": "entity:ef23a41aa60f",
+   "name": "Teng"
+  },
+  {
+   "id": "entity:061419df13e5",
+   "name": "Cao"
+  },
+  {
+   "id": "entity:11282d6f0c47",
+   "name": "Zheng"
+  },
+  {
+   "id": "entity:385afac00cf2",
+   "name": "Cai"
+  },
+  {
+   "id": "entity:9ce81a89ac36",
+   "name": "Zhu"
+  },
+  {
+   "id": "entity:3ef19a76385e",
+   "name": "Later Zhou"
+  },
+  {
+   "id": "entity:53068bce430b",
+   "name": "Wu"
+  },
+  {
+   "id": "entity:816d0a9d3ddd",
+   "name": "Phoenician Colonies"
+  },
+  {
+   "id": "entity:9941eb647b86",
+   "name": "Assyrian Egypt"
+  },
+  {
+   "id": "entity:b555526c7c09",
+   "name": "Median Kingdom"
+  },
+  {
+   "id": "entity:744849e77e94",
+   "name": "Neo-Babylonian Empire"
+  },
+  {
+   "id": "entity:14d5b79345a3",
+   "name": "Janapada of Cedī"
+  },
+  {
+   "id": "entity:298c3e477638",
+   "name": "Janapada of Gandhāra"
+  },
+  {
+   "id": "entity:6ebeeab67b61",
+   "name": "Janapada of Kāśī"
+  },
+  {
+   "id": "entity:919bc95e39ef",
+   "name": "Peloponnesian League"
+  },
+  {
+   "id": "entity:ec27cfbf79d2",
+   "name": "Yue"
+  },
+  {
+   "id": "entity:b6b4ba388ade",
+   "name": "Roman Republic"
+  },
+  {
+   "id": "entity:44cdef6196e3",
+   "name": "Magadha - Haryanka dynasty"
+  },
+  {
+   "id": "entity:f9d848ee0921",
+   "name": "Zhao"
+  },
+  {
+   "id": "entity:036dcd8bdfba",
+   "name": "Magadha - Shaishunaga dynasty"
+  },
+  {
+   "id": "entity:15710324ddc1",
+   "name": "Han"
+  },
+  {
+   "id": "entity:f0d3244a757b",
+   "name": "Thirtieth Dynasty of Egypt"
+  },
+  {
+   "id": "entity:448f3782a1bc",
+   "name": "Second Athenian League"
+  },
+  {
+   "id": "entity:eb198f3be897",
+   "name": "Zhongshan"
+  },
+  {
+   "id": "entity:867f0bc4882f",
+   "name": "Thebans"
+  },
+  {
+   "id": "entity:6c73dc697a12",
+   "name": "Minyue"
+  },
+  {
+   "id": "entity:4bffd447f52b",
+   "name": "Nanda Empire"
+  },
+  {
+   "id": "entity:32a49ec7b925",
+   "name": "Kingdom of Bithynia"
+  },
+  {
+   "id": "entity:6d4721eb6805",
+   "name": "Perdiccas"
+  },
+  {
+   "id": "entity:feafb1f01ac1",
+   "name": "Seleucid Empire"
+  },
+  {
+   "id": "entity:f6057f2d12c0",
+   "name": "Kalinga"
+  },
+  {
+   "id": "entity:a0eacb87b2ac",
+   "name": "Atropatene"
+  },
+  {
+   "id": "entity:a86e8eb8643c",
+   "name": "Early Pandyas"
+  },
+  {
+   "id": "entity:1182393f17bf",
+   "name": "Anurādhapura"
+  },
+  {
+   "id": "entity:1504c126db54",
+   "name": "Early Cholas"
+  },
+  {
+   "id": "entity:9ca70f60e29f",
+   "name": "Antigonid Dynasty"
+  },
+  {
+   "id": "entity:4559b50b45b8",
+   "name": "Aetolian League"
+  },
+  {
+   "id": "entity:71ef8235cc0d",
+   "name": "Kingdom of Pontus"
+  },
+  {
+   "id": "entity:4220536fee0f",
+   "name": "Achaean League"
+  },
+  {
+   "id": "entity:ca37a387e064",
+   "name": "Galatia"
+  },
+  {
+   "id": "entity:38fb29477e7d",
+   "name": "Antigonid Macedonia"
+  },
+  {
+   "id": "entity:f8e9438e44f3",
+   "name": "Âu Lạc"
+  },
+  {
+   "id": "entity:9d9530663d1c",
+   "name": "Illyrian Kingdom"
+  },
+  {
+   "id": "entity:66bd37bf1255",
+   "name": "Kingdom of Cappadocia"
+  },
+  {
+   "id": "entity:d18ab1a53829",
+   "name": "Qin Dynasty"
+  },
+  {
+   "id": "entity:10cf3a57d878",
+   "name": "(Eighteen Kingdoms)"
+  },
+  {
+   "id": "entity:4dc34eda3610",
+   "name": "Zhai"
+  },
+  {
+   "id": "entity:5a08977aa912",
+   "name": "Dai"
+  },
+  {
+   "id": "entity:866cf7b93325",
+   "name": "Jibei"
+  },
+  {
+   "id": "entity:3f87076b4ce3",
+   "name": "Jiujiang"
+  },
+  {
+   "id": "entity:936871f43e0d",
+   "name": "Henan"
+  },
+  {
+   "id": "entity:b8478999a411",
+   "name": "Hán"
+  },
+  {
+   "id": "entity:262dd49c2761",
+   "name": "Linjiang"
+  },
+  {
+   "id": "entity:a2537c5c5a1b",
+   "name": "Chang-shan"
+  },
+  {
+   "id": "entity:fdbab3d5bfa1",
+   "name": "Nanyue"
+  },
+  {
+   "id": "entity:6defd06d8998",
+   "name": "Sai"
+  },
+  {
+   "id": "entity:ef5742d4e9d3",
+   "name": "Liaodong"
+  },
+  {
+   "id": "entity:477994507c99",
+   "name": "Jiaodong"
+  },
+  {
+   "id": "entity:fce79b3cffc2",
+   "name": "Yong"
+  },
+  {
+   "id": "entity:f709b04e0f1e",
+   "name": "Yin"
+  },
+  {
+   "id": "entity:c08fd6682ce5",
+   "name": "Ankhwennefer"
+  },
+  {
+   "id": "entity:333fe1a1eae4",
+   "name": "Korean Jin"
+  },
+  {
+   "id": "entity:e895788c8be8",
+   "name": "Kingdom of Numidia"
+  },
+  {
+   "id": "entity:1d27b8557940",
+   "name": "Mahameghavahana Dynasty"
+  },
+  {
+   "id": "entity:55932576c3f3",
+   "name": "Shunga Empire"
+  },
+  {
+   "id": "entity:f083db743484",
+   "name": "Indo-Scythians"
+  },
+  {
+   "id": "entity:8caba522ecd1",
+   "name": "Indo-Greeks"
+  },
+  {
+   "id": "entity:065a2966f810",
+   "name": "Himyarite Kingdom"
+  },
+  {
+   "id": "entity:afa4fc239ce6",
+   "name": "Byeonhan"
+  },
+  {
+   "id": "entity:28c4fa46e2cb",
+   "name": "Dongye"
+  },
+  {
+   "id": "entity:864f63c9cbed",
+   "name": "Jinhan"
+  },
+  {
+   "id": "entity:46ce4a9bc074",
+   "name": "Thracian Kingdom"
+  },
+  {
+   "id": "entity:605c4d7d4c27",
+   "name": "Kanva Dynasty"
+  },
+  {
+   "id": "entity:b333f669b0fd",
+   "name": "Kingdom of Osroene"
+  },
+  {
+   "id": "entity:f049917ea366",
+   "name": "Teotihuacan"
+  },
+  {
+   "id": "entity:803f8f84931b",
+   "name": "Western Satraps"
+  },
+  {
+   "id": "entity:fdd6d198f8c8",
+   "name": "Funan"
+  },
+  {
+   "id": "entity:9dde4cff9a40",
+   "name": "Burgundians"
+  },
+  {
+   "id": "entity:8e410e9bee7c",
+   "name": "Norse"
+  },
+  {
+   "id": "entity:d1d722e3f707",
+   "name": "Shu Han"
+  },
+  {
+   "id": "entity:b80e60f2dcdd",
+   "name": "Cao Wei"
+  },
+  {
+   "id": "entity:fc655e06d066",
+   "name": "Vakataka Kingdom"
+  },
+  {
+   "id": "entity:3c3750522f83",
+   "name": "Western Jin"
+  },
+  {
+   "id": "entity:b1c25aa11c87",
+   "name": "Lakhmid Kingdom"
+  },
+  {
+   "id": "entity:61b75cfb2de8",
+   "name": "Yaudheya Republic"
+  },
+  {
+   "id": "entity:09e8a234b0e4",
+   "name": "Former Zhao"
+  },
+  {
+   "id": "entity:e614932c2f86",
+   "name": "Gupta Empire"
+  },
+  {
+   "id": "entity:ea46b6a1b006",
+   "name": "Former Yan"
+  },
+  {
+   "id": "entity:2643b144f9e7",
+   "name": "Later Zhao"
+  },
+  {
+   "id": "entity:e5da13afd841",
+   "name": "Kalabhra Dynasty"
+  },
+  {
+   "id": "entity:7bae781c7eec",
+   "name": "Former Qin"
+  },
+  {
+   "id": "entity:946abe121fd0",
+   "name": "Kidarites"
+  },
+  {
+   "id": "entity:fd41bda89c3d",
+   "name": "Salian Franks"
+  },
+  {
+   "id": "entity:df59ad0f60fe",
+   "name": "Tarumanagara"
+  },
+  {
+   "id": "entity:13931acb736b",
+   "name": "Silla"
+  },
+  {
+   "id": "entity:ff8084f15b2e",
+   "name": "Angles"
+  },
+  {
+   "id": "entity:688a481f8305",
+   "name": "Xionites"
+  },
+  {
+   "id": "entity:6cb594a2d09f",
+   "name": "Southern Yan"
+  },
+  {
+   "id": "entity:b92e8761fb6f",
+   "name": "White Huns"
+  },
+  {
+   "id": "entity:1fdfbf9facef",
+   "name": "Burgundian Kingdom"
+  },
+  {
+   "id": "entity:f146a65a992c",
+   "name": "Kingdom of the Suebi"
+  },
+  {
+   "id": "entity:36609405aa88",
+   "name": "Liu Song Dynasty"
+  },
+  {
+   "id": "entity:c93e2b800fcb",
+   "name": "Visigothic Kingdom"
+  },
+  {
+   "id": "entity:df948d7b0cb2",
+   "name": "Maitraka Dynasty"
+  },
+  {
+   "id": "entity:e0fb6c577078",
+   "name": "Kingdom of Thuringia"
+  },
+  {
+   "id": "entity:eabdcf3de27c",
+   "name": "Kingdom of Kent"
+  },
+  {
+   "id": "entity:7abc13f11cfe",
+   "name": "Kingdom of Sussex"
+  },
+  {
+   "id": "entity:7d984a97b724",
+   "name": "Ostrogothic Kingdom"
+  },
+  {
+   "id": "entity:4537fe6624a7",
+   "name": "Ghassanids"
+  },
+  {
+   "id": "entity:931c6a625ccf",
+   "name": "Kingdom of the Gepids"
+  },
+  {
+   "id": "entity:1e6c05786b1b",
+   "name": "Wihtgar"
+  },
+  {
+   "id": "entity:9f560e127091",
+   "name": "Kingdom of East Anglia"
+  },
+  {
+   "id": "entity:b9e0f02f5292",
+   "name": "Kingdom of Lindsey"
+  },
+  {
+   "id": "entity:1b53ce9ab987",
+   "name": "Asuka Japan"
+  },
+  {
+   "id": "entity:380b365d7c6e",
+   "name": "Kingdom of Powys"
+  },
+  {
+   "id": "entity:929710ce72c9",
+   "name": "Kingdom of Morgannwg"
+  },
+  {
+   "id": "entity:6c320b862060",
+   "name": "Dál Riata"
+  },
+  {
+   "id": "entity:c331b6d7d9fd",
+   "name": "Early Lý Dynasty"
+  },
+  {
+   "id": "entity:5785c24eb61f",
+   "name": "Yenisei Kyrgyz"
+  },
+  {
+   "id": "entity:2c7276cd0c7f",
+   "name": "Northern Qi"
+  },
+  {
+   "id": "entity:301de698d43a",
+   "name": "Chenla"
+  },
+  {
+   "id": "entity:bced8ac92afd",
+   "name": "Maukhari Dynasty"
+  },
+  {
+   "id": "entity:d0588c19b8d4",
+   "name": "(Chenla)"
+  },
+  {
+   "id": "entity:ccb99718fe8c",
+   "name": "Turk Shahis"
+  },
+  {
+   "id": "entity:b9b627f538dc",
+   "name": "Later Western Liang"
+  },
+  {
+   "id": "entity:9113c6c0c1f9",
+   "name": "Georgia"
+  },
+  {
+   "id": "entity:04639ace69cb",
+   "name": "Duchy of Thuringia"
+  },
+  {
+   "id": "entity:5fcd5822263d",
+   "name": "Duchy of Tuscia"
+  },
+  {
+   "id": "entity:8df630a8bd56",
+   "name": "Duchy of Spoleto"
+  },
+  {
+   "id": "entity:a9178038cea7",
+   "name": "Eastern Göktürks"
+  },
+  {
+   "id": "entity:621a49dd22e8",
+   "name": "Western Göktürks"
+  },
+  {
+   "id": "entity:b872526b9fef",
+   "name": "Karkota Dynasty"
+  },
+  {
+   "id": "entity:c3b694d7b528",
+   "name": "Kingdom of Dunoting"
+  },
+  {
+   "id": "entity:7d6418f9faeb",
+   "name": "Pandya Dynasty"
+  },
+  {
+   "id": "entity:5399c4cbd18c",
+   "name": "Gauda Kingdom"
+  },
+  {
+   "id": "entity:10a61b2da184",
+   "name": "Dumnonia"
+  },
+  {
+   "id": "entity:d46b74ce69a5",
+   "name": "Frisia Kingdom"
+  },
+  {
+   "id": "entity:2bc95a78ffdc",
+   "name": "Harsha's Empire"
+  },
+  {
+   "id": "entity:7f0f9fe5d7b6",
+   "name": "Samo's Empire"
+  },
+  {
+   "id": "entity:53c854a7bfa4",
+   "name": "Gao Kaidao"
+  },
+  {
+   "id": "entity:8dd0fa8e408f",
+   "name": "Aquitaine"
+  },
+  {
+   "id": "entity:4e85a14d79a8",
+   "name": "Khazaria"
+  },
+  {
+   "id": "entity:9e248b61d13c",
+   "name": "Balasagan"
+  },
+  {
+   "id": "entity:63c4f22df4a3",
+   "name": "Lavo Kingdom"
+  },
+  {
+   "id": "entity:129564ac6cd9",
+   "name": "Dabuyid Dynasty"
+  },
+  {
+   "id": "entity:3b32f692654d",
+   "name": "Strathclyde"
+  },
+  {
+   "id": "entity:3bfdb9aa99a8",
+   "name": "Khadga Dynasty"
+  },
+  {
+   "id": "entity:78f4faa3d13d",
+   "name": "Haripuñjaya"
+  },
+  {
+   "id": "entity:8d855d20f1b5",
+   "name": "Turks"
+  },
+  {
+   "id": "entity:8679621e9f72",
+   "name": "Volga Bulgaria"
+  },
+  {
+   "id": "entity:365cb44e4daa",
+   "name": "Galuh Kingdom"
+  },
+  {
+   "id": "entity:7cab50946234",
+   "name": "Unified Silla"
+  },
+  {
+   "id": "entity:17aa014ed124",
+   "name": "Türgesh"
+  },
+  {
+   "id": "entity:eb367fed203b",
+   "name": "Republic of Venice"
+  },
+  {
+   "id": "entity:3c84e63195cb",
+   "name": "Water Chenla"
+  },
+  {
+   "id": "entity:89195b4998e1",
+   "name": "Land Chenla"
+  },
+  {
+   "id": "entity:850dfde3263b",
+   "name": "Kannauj-Varman Dynasty"
+  },
+  {
+   "id": "entity:14a6bf849131",
+   "name": "Duchy of Croatia"
+  },
+  {
+   "id": "entity:1101fc01b88c",
+   "name": "Oghuz Turks"
+  },
+  {
+   "id": "entity:5e1786246188",
+   "name": "Emirate of Nekor"
+  },
+  {
+   "id": "entity:c6c034ad8bc6",
+   "name": "Kimek-Kipchak confederation"
+  },
+  {
+   "id": "entity:79cbf38b9a0c",
+   "name": "Fihrids"
+  },
+  {
+   "id": "entity:df050f7ee800",
+   "name": "Papal States"
+  },
+  {
+   "id": "entity:b9c762838ea3",
+   "name": "Emirate of Córdoba"
+  },
+  {
+   "id": "entity:34b62c7cf51c",
+   "name": "Duchy of Naples"
+  },
+  {
+   "id": "entity:4bf32dd43083",
+   "name": "Duchy of Gascony"
+  },
+  {
+   "id": "entity:90baca555c6d",
+   "name": "Frisia"
+  },
+  {
+   "id": "entity:1de30ca00ad8",
+   "name": "Idrisids"
+  },
+  {
+   "id": "entity:e583d029dfe2",
+   "name": "Ghana Empire"
+  },
+  {
+   "id": "entity:3ddc88649d70",
+   "name": "Aghlabid Dynasty"
+  },
+  {
+   "id": "entity:0392db385a3f",
+   "name": "Principality of Nitra"
+  },
+  {
+   "id": "entity:95e3be2c0d4c",
+   "name": "Kingdom of Pamplona"
+  },
+  {
+   "id": "entity:b034a1cbbf3f",
+   "name": "Kingdom of Sobrarbe"
+  },
+  {
+   "id": "entity:396e1f03dc29",
+   "name": "Emirate of Crete"
+  },
+  {
+   "id": "entity:9c6795d969b6",
+   "name": "County of Aragon"
+  },
+  {
+   "id": "entity:9d95bc5e0f32",
+   "name": "Principality of Salerno"
+  },
+  {
+   "id": "entity:49658b0973ff",
+   "name": "Principality of Capua"
+  },
+  {
+   "id": "entity:da3751fb9f1f",
+   "name": "Kara-Khanids"
+  },
+  {
+   "id": "entity:a14acaaf3077",
+   "name": "Middle Franks"
+  },
+  {
+   "id": "entity:34706bf2a05a",
+   "name": "West Franks"
+  },
+  {
+   "id": "entity:7f70982f12c9",
+   "name": "Chola Empire"
+  },
+  {
+   "id": "entity:e561b4a3219e",
+   "name": "East Franks"
+  },
+  {
+   "id": "entity:e1412e5e5cac",
+   "name": "Emirate of Sicily"
+  },
+  {
+   "id": "entity:41b7c723be86",
+   "name": "Lower Burgundy"
+  },
+  {
+   "id": "entity:d20f626432fa",
+   "name": "Ganzhou Kingdom"
+  },
+  {
+   "id": "entity:8564906198b3",
+   "name": "Saffarid Dynasty"
+  },
+  {
+   "id": "entity:4c75f3d58cf7",
+   "name": "Sind-Habbari Dynasty"
+  },
+  {
+   "id": "entity:2fcb9b377792",
+   "name": "Ziyadid dynasty"
+  },
+  {
+   "id": "entity:16237a968957",
+   "name": "Toltec"
+  },
+  {
+   "id": "entity:51badc102d8a",
+   "name": "Tulunids"
+  },
+  {
+   "id": "entity:7c51031d26c0",
+   "name": "County of Pallars"
+  },
+  {
+   "id": "entity:91d70cbf2992",
+   "name": "Danelaw"
+  },
+  {
+   "id": "entity:f8f8ad8a2bfc",
+   "name": "Rus'"
+  },
+  {
+   "id": "entity:0f36a07e6db0",
+   "name": "Upper Burgundy"
+  },
+  {
+   "id": "entity:cfe5c5cf875d",
+   "name": "Hubaekje"
+  },
+  {
+   "id": "entity:9b535f2947ca",
+   "name": "Duchy of Bohemia"
+  },
+  {
+   "id": "entity:f9ad3b172144",
+   "name": "County of Rosellón"
+  },
+  {
+   "id": "entity:48c210208c95",
+   "name": "Sajid Dynasty"
+  },
+  {
+   "id": "entity:11a03fe0ee85",
+   "name": "County of Besalú"
+  },
+  {
+   "id": "entity:44043bf436f2",
+   "name": "Qarmatians"
+  },
+  {
+   "id": "entity:2a57961361d2",
+   "name": "Principality of Hungary"
+  },
+  {
+   "id": "entity:8f39f357a50f",
+   "name": "Chandra Dynasty"
+  },
+  {
+   "id": "entity:972107855ac0",
+   "name": "Kingdom of Lower Burgundy"
+  },
+  {
+   "id": "entity:7eb0cee888ab",
+   "name": "Min"
+  },
+  {
+   "id": "entity:44fdc5d6f01e",
+   "name": "Later Jin"
+  },
+  {
+   "id": "entity:4037fa3f203c",
+   "name": "Southern Han"
+  },
+  {
+   "id": "entity:3bd9b0bd0f5c",
+   "name": "(Five Dynasties and Ten Kingdoms)"
+  },
+  {
+   "id": "entity:0e752694c599",
+   "name": "Kingdom of León"
+  },
+  {
+   "id": "entity:a55549a59d23",
+   "name": "Liao Dynasty"
+  },
+  {
+   "id": "entity:602e1c8e5bc2",
+   "name": "Former Shu"
+  },
+  {
+   "id": "entity:16bcf6372b85",
+   "name": "Later Liang Dynasty"
+  },
+  {
+   "id": "entity:6c11556968be",
+   "name": "Wuyue"
+  },
+  {
+   "id": "entity:978d1fd8116f",
+   "name": "Kingdom of Vaspurakan"
+  },
+  {
+   "id": "entity:dd4ad3f97c44",
+   "name": "Chimor"
+  },
+  {
+   "id": "entity:5b1da583b4da",
+   "name": "Southern Chu"
+  },
+  {
+   "id": "entity:6c23ddefeb68",
+   "name": "Southern Wu"
+  },
+  {
+   "id": "entity:eb9d1019bc86",
+   "name": "Qi Kingdom"
+  },
+  {
+   "id": "entity:3d7ed794a65a",
+   "name": "Early Balinese Kingdoms"
+  },
+  {
+   "id": "entity:5b0699ed7264",
+   "name": "Former Jin"
+  },
+  {
+   "id": "entity:eec40b29073a",
+   "name": "Upper Burgundy and Italy"
+  },
+  {
+   "id": "entity:4044914935fe",
+   "name": "Jingnan"
+  },
+  {
+   "id": "entity:769eca57218c",
+   "name": "Later Tang"
+  },
+  {
+   "id": "entity:3b5f69d7fc21",
+   "name": "Caliphate of Córdoba"
+  },
+  {
+   "id": "entity:8d679c23b3ba",
+   "name": "Hamdanid Emirates"
+  },
+  {
+   "id": "entity:1e9fd26d8586",
+   "name": "Later Shu"
+  },
+  {
+   "id": "entity:c1dc5ae4338e",
+   "name": "Buyid Dynasty"
+  },
+  {
+   "id": "entity:b95eb58a1161",
+   "name": "Kingdom of Dali"
+  },
+  {
+   "id": "entity:2e1cf736a3ae",
+   "name": "Jaemtland"
+  },
+  {
+   "id": "entity:d65685b12bf0",
+   "name": "Duchy of Brittany"
+  },
+  {
+   "id": "entity:8049eb89bf06",
+   "name": "Later Han"
+  },
+  {
+   "id": "entity:38a833c5cc59",
+   "name": "Chaulukya Dynasty"
+  },
+  {
+   "id": "entity:70452bd25daa",
+   "name": "Northern Han"
+  },
+  {
+   "id": "entity:260943df23d0",
+   "name": "Republic of Amalfi"
+  },
+  {
+   "id": "entity:6c64e020ec3d",
+   "name": "Chandela Kingdom"
+  },
+  {
+   "id": "entity:f2546364970f",
+   "name": "Utpala Dynasty"
+  },
+  {
+   "id": "entity:2b3943835a1c",
+   "name": "Kingdom of Castile"
+  },
+  {
+   "id": "entity:08cddc94b112",
+   "name": "Western Chalukya Empire"
+  },
+  {
+   "id": "entity:67e4892c19f4",
+   "name": "Paramara Dynasty"
+  },
+  {
+   "id": "entity:136195219d51",
+   "name": "Chauhan Dynasty"
+  },
+  {
+   "id": "entity:c51c97fedb39",
+   "name": "County of Toulouse"
+  },
+  {
+   "id": "entity:6806a91755f6",
+   "name": "County of Blôis"
+  },
+  {
+   "id": "entity:6441aa1ceefc",
+   "name": "County of Vexin"
+  },
+  {
+   "id": "entity:39cd1086cb07",
+   "name": "Western Xia"
+  },
+  {
+   "id": "entity:f75e6af10a8d",
+   "name": "Seljuk Dynasty"
+  },
+  {
+   "id": "entity:0188a6a67e7e",
+   "name": "County of Maine"
+  },
+  {
+   "id": "entity:190869d1f0da",
+   "name": "County of Vermandois"
+  },
+  {
+   "id": "entity:1ae76717e339",
+   "name": "County of Rouergue"
+  },
+  {
+   "id": "entity:ed27a010c6a3",
+   "name": "County of Anjou"
+  },
+  {
+   "id": "entity:2212ce49670e",
+   "name": "Duchy of Aquitaine"
+  },
+  {
+   "id": "entity:917526280f0f",
+   "name": "County of Osona"
+  },
+  {
+   "id": "entity:f34b4126f9c1",
+   "name": "County of Ampuria"
+  },
+  {
+   "id": "entity:4557e7df71b7",
+   "name": "Lohara Dynasty"
+  },
+  {
+   "id": "entity:5b99f2bbb694",
+   "name": "Kingdom of Georgia"
+  },
+  {
+   "id": "entity:7e54222a83a3",
+   "name": "Taifa of Alpuente"
+  },
+  {
+   "id": "entity:f4975426bc3b",
+   "name": "Taifa of Badajoz"
+  },
+  {
+   "id": "entity:44ef7b35b653",
+   "name": "County of Nevers"
+  },
+  {
+   "id": "entity:ab0b02994806",
+   "name": "Taifa of Arcos"
+  },
+  {
+   "id": "entity:87f1948098cc",
+   "name": "Taifa of Almería"
+  },
+  {
+   "id": "entity:ddb28ae8939f",
+   "name": "Taifa of Zaragoza"
+  },
+  {
+   "id": "entity:2c9bdfdc997f",
+   "name": "Taifa of Saltés and Huelva"
+  },
+  {
+   "id": "entity:d44ae384faa5",
+   "name": "Taifa of Carmona"
+  },
+  {
+   "id": "entity:1f9c8b6d8e0f",
+   "name": "Taifa of Santa Maria do Algarve"
+  },
+  {
+   "id": "entity:23ae156b4967",
+   "name": "Taifa of Seville"
+  },
+  {
+   "id": "entity:d126905f66ab",
+   "name": "Kahuripan"
+  },
+  {
+   "id": "entity:270899989ad2",
+   "name": "Taifa of Silves"
+  },
+  {
+   "id": "entity:00fff8e13ba2",
+   "name": "Takrur"
+  },
+  {
+   "id": "entity:83b4122b98ba",
+   "name": "Taifa of Ronda"
+  },
+  {
+   "id": "entity:61b127bec9d6",
+   "name": "Kingdom of Janggala"
+  },
+  {
+   "id": "entity:bedbbd7ab5c6",
+   "name": "Eastern Kara-Khanids"
+  },
+  {
+   "id": "entity:6ae9365fd2d1",
+   "name": "Western Karakhanid Khanate"
+  },
+  {
+   "id": "entity:e56e889910e7",
+   "name": "Zirid dynasty"
+  },
+  {
+   "id": "entity:88cab1d57146",
+   "name": "Sulayhid Dynasty"
+  },
+  {
+   "id": "entity:79ef3d07abe2",
+   "name": "Principality of Volhynia"
+  },
+  {
+   "id": "entity:7fc9513f23f6",
+   "name": "Almoravid Dynasty"
+  },
+  {
+   "id": "entity:f44791d8eca0",
+   "name": "Principality of Peremyshl"
+  },
+  {
+   "id": "entity:b6295f866b2f",
+   "name": "Principality of Pereyaslavl"
+  },
+  {
+   "id": "entity:78a183df6dd1",
+   "name": "Eastern Ganga Kingdom"
+  },
+  {
+   "id": "entity:04086eef5b0e",
+   "name": "Taifa of Ceuta"
+  },
+  {
+   "id": "entity:6281fe40b812",
+   "name": "Uyunid Emirate"
+  },
+  {
+   "id": "entity:eb98189ba800",
+   "name": "Kingdom of Polonnaruwa"
+  },
+  {
+   "id": "entity:b5f0632177f5",
+   "name": "Empire of Kanem"
+  },
+  {
+   "id": "entity:82d7b10d7826",
+   "name": "Gahadavala Dynasty"
+  },
+  {
+   "id": "entity:c67a1bdf0bdc",
+   "name": "Zurayid dynasty"
+  },
+  {
+   "id": "entity:d3fdbb993ef1",
+   "name": "Kingdom of the Isles"
+  },
+  {
+   "id": "entity:25eb71593a67",
+   "name": "Principality of Terebovlia"
+  },
+  {
+   "id": "entity:8b1b3c03a49f",
+   "name": "Khwarezmid Dynasty"
+  },
+  {
+   "id": "entity:ecef39853469",
+   "name": "Northern Fujiwara"
+  },
+  {
+   "id": "entity:458744c62672",
+   "name": "Principality of Koknese"
+  },
+  {
+   "id": "entity:4853a64bdb83",
+   "name": "Principality of Drutsk"
+  },
+  {
+   "id": "entity:e1cc657329f7",
+   "name": "Principality of Minsk"
+  },
+  {
+   "id": "entity:7d041b0454cc",
+   "name": "Principality of Jersika"
+  },
+  {
+   "id": "entity:efa0dd890dd6",
+   "name": "Principality of Vitebsk"
+  },
+  {
+   "id": "entity:59d6d9f35d65",
+   "name": "Angevins"
+  },
+  {
+   "id": "entity:6f7464c877f2",
+   "name": "(Duchies of Poland)"
+  },
+  {
+   "id": "entity:52934c60c2de",
+   "name": "Duchy of Silesia"
+  },
+  {
+   "id": "entity:a5a79ccaddf6",
+   "name": "County of Portugal"
+  },
+  {
+   "id": "entity:cc5e0e075c7d",
+   "name": "Zengid dynasty"
+  },
+  {
+   "id": "entity:f171ede191a7",
+   "name": "Kingdom of Navarre"
+  },
+  {
+   "id": "entity:388dcf983ca5",
+   "name": "Kingdom of Sicily"
+  },
+  {
+   "id": "entity:8a70791c6a21",
+   "name": "Duchy of Greater Poland"
+  },
+  {
+   "id": "entity:c48ebb055d21",
+   "name": "Duchy of Sandomierz"
+  },
+  {
+   "id": "entity:259b498e38ef",
+   "name": "Duchy of Masovia"
+  },
+  {
+   "id": "entity:713d4cece882",
+   "name": "Sultanate of Kedah"
+  },
+  {
+   "id": "entity:a832074fe2e0",
+   "name": "Almohad Caliphate"
+  },
+  {
+   "id": "entity:5ac9f101aa92",
+   "name": "Angevin Empire"
+  },
+  {
+   "id": "entity:58e3b7603d87",
+   "name": "Kingdom of Portugal"
+  },
+  {
+   "id": "entity:ee3cc0e26b17",
+   "name": "Taifa of Tejada"
+  },
+  {
+   "id": "entity:10700f148776",
+   "name": "Principality of Halych"
+  },
+  {
+   "id": "entity:b8ecfb475996",
+   "name": "Ghurid Dynasty"
+  },
+  {
+   "id": "entity:166d3d1ff4ce",
+   "name": "Nabhani Dynasty"
+  },
+  {
+   "id": "entity:5a8ef0300e9e",
+   "name": "Duchy of Wrocław"
+  },
+  {
+   "id": "entity:9ccd35306bee",
+   "name": "Duchy of Opole"
+  },
+  {
+   "id": "entity:e42167834cbc",
+   "name": "Kingdom of Mann"
+  },
+  {
+   "id": "entity:e2ff31c96a89",
+   "name": "Kakatiya Dynasty"
+  },
+  {
+   "id": "entity:4fad0ee605d4",
+   "name": "Kingdom of Serbia"
+  },
+  {
+   "id": "entity:2b07f7b60680",
+   "name": "Shunten Dynasty"
+  },
+  {
+   "id": "entity:8a097eb2aaa2",
+   "name": "Yadava Dynasty"
+  },
+  {
+   "id": "entity:76c233597654",
+   "name": "Chimu Empire"
+  },
+  {
+   "id": "entity:026d392acb8b",
+   "name": "County of Boulogne"
+  },
+  {
+   "id": "entity:4efcf3640d0d",
+   "name": "Kingdom of Cyprus"
+  },
+  {
+   "id": "entity:6068ca45fa3f",
+   "name": "Texcoco"
+  },
+  {
+   "id": "entity:9ddfa6481f83",
+   "name": "Sosso Empire"
+  },
+  {
+   "id": "entity:6d5acc681e9b",
+   "name": "Namayan"
+  },
+  {
+   "id": "entity:fb46f9adda91",
+   "name": "Negroponte"
+  },
+  {
+   "id": "entity:2c240e3c1192",
+   "name": "County of Armagnac"
+  },
+  {
+   "id": "entity:c0a3ed9ebef4",
+   "name": "County of Périgord"
+  },
+  {
+   "id": "entity:ab4640e27a6f",
+   "name": "County of Poitou"
+  },
+  {
+   "id": "entity:f5148d1f0506",
+   "name": "County of Auvergne"
+  },
+  {
+   "id": "entity:d99fe2e6aa79",
+   "name": "Duchy of the Archipelago"
+  },
+  {
+   "id": "entity:b27cb3e0ac71",
+   "name": "Duchy of Kalisz"
+  },
+  {
+   "id": "entity:d730e2e4c6f0",
+   "name": "Mamluk Dynasty"
+  },
+  {
+   "id": "entity:8a870897ef7d",
+   "name": "Pandya Empire"
+  },
+  {
+   "id": "entity:380ff29499e7",
+   "name": "County of Foix"
+  },
+  {
+   "id": "entity:d0f990d928be",
+   "name": "Zayyanid dynasty"
+  },
+  {
+   "id": "entity:b2056f4a65e8",
+   "name": "Kingdom of Dambadeniya"
+  },
+  {
+   "id": "entity:994c98b8050f",
+   "name": "Crown of Castile"
+  },
+  {
+   "id": "entity:997de0be3171",
+   "name": "County of Artois"
+  },
+  {
+   "id": "entity:17f3985f8355",
+   "name": "Sukhothai Kingdom"
+  },
+  {
+   "id": "entity:b67b69ea8b10",
+   "name": "Emirate of Granada"
+  },
+  {
+   "id": "entity:a149de8006a5",
+   "name": "Capetian House of Anjou"
+  },
+  {
+   "id": "entity:52862a291dce",
+   "name": "Marinid Sultanate"
+  },
+  {
+   "id": "entity:9c553a411a96",
+   "name": "County of Holland"
+  },
+  {
+   "id": "entity:aff362349a5e",
+   "name": "House of Luxembourg"
+  },
+  {
+   "id": "entity:58641d2f6f10",
+   "name": "Duchy of Styria"
+  },
+  {
+   "id": "entity:f1731a1077dc",
+   "name": "County of Savoy"
+  },
+  {
+   "id": "entity:feb020ba5748",
+   "name": "Dauphiné"
+  },
+  {
+   "id": "entity:a15125edb57e",
+   "name": "County of Brabant"
+  },
+  {
+   "id": "entity:8580852e7c4c",
+   "name": "Principality of Orange"
+  },
+  {
+   "id": "entity:c4f4c65da6e2",
+   "name": "Duchy of Bavaria"
+  },
+  {
+   "id": "entity:19ba18c2ebfe",
+   "name": "Patriarchate of Aquileia"
+  },
+  {
+   "id": "entity:c4d3d9150201",
+   "name": "House of Anjou-Sicily"
+  },
+  {
+   "id": "entity:2d27aeee86ae",
+   "name": "Samudera Pasai Sultanate"
+  },
+  {
+   "id": "entity:e60c148a3bde",
+   "name": "Ethiopian Empire"
+  },
+  {
+   "id": "entity:2dd5cda726f8",
+   "name": "Kingdom of Majorca"
+  },
+  {
+   "id": "entity:0030e6308ea5",
+   "name": "Duchies of Poland"
+  },
+  {
+   "id": "entity:33dd062ea11d",
+   "name": "Duchy of Jawor"
+  },
+  {
+   "id": "entity:79499ee12931",
+   "name": "Duchy of Legnica"
+  },
+  {
+   "id": "entity:f5ccdc8be5db",
+   "name": "Grand Duchy of Kraków"
+  },
+  {
+   "id": "entity:310e79c1a2eb",
+   "name": "Kampili Kingdom"
+  },
+  {
+   "id": "entity:d6feea70406a",
+   "name": "Pskov Republic"
+  },
+  {
+   "id": "entity:d2cdce410420",
+   "name": "Kingdom of Syrmia"
+  },
+  {
+   "id": "entity:1ccfa2c3e48e",
+   "name": "Ifat Sultanate"
+  },
+  {
+   "id": "entity:cf5a06b1cce6",
+   "name": "Duchy of Racibórz"
+  },
+  {
+   "id": "entity:747d328a5343",
+   "name": "Kingdom of Naples"
+  },
+  {
+   "id": "entity:f8e30e146643",
+   "name": "Duchy of Bytom"
+  },
+  {
+   "id": "entity:baa14e9e6ea8",
+   "name": "Khalji Dynasty"
+  },
+  {
+   "id": "entity:6f4763934878",
+   "name": "Majapahit"
+  },
+  {
+   "id": "entity:bfce363e01fd",
+   "name": "Hanthawaddy Kingdom"
+  },
+  {
+   "id": "entity:7c0ed204093e",
+   "name": "Phayao Kingdom"
+  },
+  {
+   "id": "entity:8b3fb6e76db4",
+   "name": "Principality of Beloozero"
+  },
+  {
+   "id": "entity:4bfa36ecd30a",
+   "name": "Kingdom of Singapura"
+  },
+  {
+   "id": "entity:f582ac26c6ac",
+   "name": "Kastamonu"
+  },
+  {
+   "id": "entity:b4d6f545f6ba",
+   "name": "Ahi Republic"
+  },
+  {
+   "id": "entity:02c7b9e8db68",
+   "name": "Nanzan"
+  },
+  {
+   "id": "entity:c0339cc0edb3",
+   "name": "Chüzan"
+  },
+  {
+   "id": "entity:5acbdf541be5",
+   "name": "Hokuzan"
+  },
+  {
+   "id": "entity:8b77a3cb01af",
+   "name": "Jaffna kingdom"
+  },
+  {
+   "id": "entity:89d499a8e92d",
+   "name": "Beylik of Teke"
+  },
+  {
+   "id": "entity:b17d6b14578e",
+   "name": "Earldom of Ulster"
+  },
+  {
+   "id": "entity:a20c5b5277f4",
+   "name": "Earldom of Desmond"
+  },
+  {
+   "id": "entity:b5d3bb320af4",
+   "name": "Kenmu Restoration"
+  },
+  {
+   "id": "entity:794ec928f6ac",
+   "name": "Free County of Burgundy"
+  },
+  {
+   "id": "entity:d74652e0d47e",
+   "name": "Principality of Valona"
+  },
+  {
+   "id": "entity:86b69ed24516",
+   "name": "Kartids"
+  },
+  {
+   "id": "entity:59bfa9602549",
+   "name": "Sarbadars"
+  },
+  {
+   "id": "entity:f6619898c107",
+   "name": "Kashmiri Sultanate"
+  },
+  {
+   "id": "entity:141e73098e43",
+   "name": "Injuids"
+  },
+  {
+   "id": "entity:4aa1a55a7696",
+   "name": "Sultanate of Bengal"
+  },
+  {
+   "id": "entity:0e3e04b2428a",
+   "name": "Sind-Samma Dynasty"
+  },
+  {
+   "id": "entity:20612c5e1a19",
+   "name": "Muzaffarids"
+  },
+  {
+   "id": "entity:2818bf784a9d",
+   "name": "Ayutthaya Kingdom"
+  },
+  {
+   "id": "entity:05fbad25c9f0",
+   "name": "Sultanate of Brunei"
+  },
+  {
+   "id": "entity:9590f9ede893",
+   "name": "Electorate of Saxony"
+  },
+  {
+   "id": "entity:ded86eb0969a",
+   "name": "House of Valois-Anjou"
+  },
+  {
+   "id": "entity:5cffc336ee9f",
+   "name": "Tibet"
+  },
+  {
+   "id": "entity:5cc358dc66b6",
+   "name": "Despotate of Vidin"
+  },
+  {
+   "id": "entity:117900ddb138",
+   "name": "White Horde"
+  },
+  {
+   "id": "entity:d524bf25e9f2",
+   "name": "Blue Horde"
+  },
+  {
+   "id": "entity:fe1289a6160c",
+   "name": "Despotate of Dobruja"
+  },
+  {
+   "id": "entity:09eaec7c6fa9",
+   "name": "Lan Xang"
+  },
+  {
+   "id": "entity:edecf37f5e45",
+   "name": "Timurid Empire"
+  },
+  {
+   "id": "entity:ec5f7d2167f7",
+   "name": "Qara Qoyunlu"
+  },
+  {
+   "id": "entity:c2b1bca3cfed",
+   "name": "County of Béarn"
+  },
+  {
+   "id": "entity:1adf08245686",
+   "name": "Margraviate of Moravia"
+  },
+  {
+   "id": "entity:aa0987386899",
+   "name": "Bornu Empire"
+  },
+  {
+   "id": "entity:88c010b2d78b",
+   "name": "Jaunpur Sultanate"
+  },
+  {
+   "id": "entity:bb5146c8cd79",
+   "name": "Principality of Valona and Kanina"
+  },
+  {
+   "id": "entity:808d79bba828",
+   "name": "(Kalmar Union)"
+  },
+  {
+   "id": "entity:231a71897456",
+   "name": "Four Oirats"
+  },
+  {
+   "id": "entity:7ad45e7ac3c9",
+   "name": "Duchy of Milan"
+  },
+  {
+   "id": "entity:9a0f9eadd593",
+   "name": "Kalmar Union"
+  },
+  {
+   "id": "entity:ef4e1a59d506",
+   "name": "Sayyid Dynasty"
+  },
+  {
+   "id": "entity:240a25ae6bbf",
+   "name": "Hashemite Arab Federation"
+  },
+  {
+   "id": "entity:9cecfaa75986",
+   "name": "Adal Sultanate"
+  },
+  {
+   "id": "entity:b896aceeeda3",
+   "name": "Ryukyu Kingdom"
+  },
+  {
+   "id": "entity:ff7fe0dedc86",
+   "name": "Khanate of Sibir"
+  },
+  {
+   "id": "entity:3c42b97878f7",
+   "name": "Duchy of Lorraine"
+  },
+  {
+   "id": "entity:5aa8c287f73b",
+   "name": "House of Oldenburg"
+  },
+  {
+   "id": "entity:f28a31a6607b",
+   "name": "Qasim Khanate"
+  },
+  {
+   "id": "entity:4e3254063b85",
+   "name": "(Habsburg Monarchy)"
+  },
+  {
+   "id": "entity:a947f26327eb",
+   "name": "Sultanate of Sulu"
+  },
+  {
+   "id": "entity:48b363cef95f",
+   "name": "Tahirid Sultanate"
+  },
+  {
+   "id": "entity:16f371efa6e2",
+   "name": "Sultanate of Palembang"
+  },
+  {
+   "id": "entity:6d5cc64c2356",
+   "name": "Songhai Empire"
+  },
+  {
+   "id": "entity:33a5e0e83486",
+   "name": "Kingdom of Kartli"
+  },
+  {
+   "id": "entity:e4c7bdecf58a",
+   "name": "Principality of Abkhazia"
+  },
+  {
+   "id": "entity:2bc704b398da",
+   "name": "Astrakhan Khanate"
+  },
+  {
+   "id": "entity:108457af8acc",
+   "name": "Principality of Mingrelia"
+  },
+  {
+   "id": "entity:609b223b01ab",
+   "name": "Mongol Khanate"
+  },
+  {
+   "id": "entity:d81e851771c7",
+   "name": "Principality of Guria"
+  },
+  {
+   "id": "entity:1ffbc831da9a",
+   "name": "Demak Sultanate"
+  },
+  {
+   "id": "entity:0da380e5f1c9",
+   "name": "Kapisa"
+  },
+  {
+   "id": "entity:a28506af7a74",
+   "name": "Sultanate of Cirebon"
+  },
+  {
+   "id": "entity:f780e3a3a862",
+   "name": "Habsburg Monarchy"
+  },
+  {
+   "id": "entity:5c470bddf253",
+   "name": "Ahmadnagar Sultanate"
+  },
+  {
+   "id": "entity:14ec2a068b70",
+   "name": "Bijapur Sultanate"
+  },
+  {
+   "id": "entity:a44d7c15f40f",
+   "name": "Bidar Sultanate"
+  },
+  {
+   "id": "entity:83bddafe99a2",
+   "name": "Rajahnate of Cebu"
+  },
+  {
+   "id": "entity:73328b3ff5f5",
+   "name": "(Portuguese Empire)"
+  },
+  {
+   "id": "entity:e5352dc13882",
+   "name": "Portuguese Empire"
+  },
+  {
+   "id": "entity:cf327471fac5",
+   "name": "First Toungoo Empire"
+  },
+  {
+   "id": "entity:c2efc85564c5",
+   "name": "Portuguese Ceylon"
+  },
+  {
+   "id": "entity:2532e6d73057",
+   "name": "Portuguese Africa"
+  },
+  {
+   "id": "entity:23f5e567cf4c",
+   "name": "Sultanate of Gowa"
+  },
+  {
+   "id": "entity:5a60220175a5",
+   "name": "Sultanate of Bone"
+  },
+  {
+   "id": "entity:2b10f9217ceb",
+   "name": "Balinese Kingdom"
+  },
+  {
+   "id": "entity:294514891fc9",
+   "name": "Sultanate of Maguindanao"
+  },
+  {
+   "id": "entity:f1a592279677",
+   "name": "Maynila"
+  },
+  {
+   "id": "entity:e9d5b046121c",
+   "name": "Sultanate of Banjar"
+  },
+  {
+   "id": "entity:3659077d4a3b",
+   "name": "Duchy of Prussia"
+  },
+  {
+   "id": "entity:bb44392e7c2a",
+   "name": "Sultanate of Banten"
+  },
+  {
+   "id": "entity:8e693fb76895",
+   "name": "Sultanate of Perak"
+  },
+  {
+   "id": "entity:b412d02a8ad2",
+   "name": "Nayaks of Thanjavur"
+  },
+  {
+   "id": "entity:d5ce5c02218a",
+   "name": "Sur Empire"
+  },
+  {
+   "id": "entity:a6a61c90028c",
+   "name": "Tümed"
+  },
+  {
+   "id": "entity:679c7e9d82c1",
+   "name": "Itza Mayans"
+  },
+  {
+   "id": "entity:1452fb849558",
+   "name": "Sultanate of Harar"
+  },
+  {
+   "id": "entity:53f1537bfd75",
+   "name": "France Antarctique"
+  },
+  {
+   "id": "entity:61109d5fe0e5",
+   "name": "Saadi Sultanate"
+  },
+  {
+   "id": "entity:ab287b5ab2e4",
+   "name": "Portuguese Colonies"
+  },
+  {
+   "id": "entity:5dd784f516b0",
+   "name": "House of Savoy"
+  },
+  {
+   "id": "entity:99d0770cd711",
+   "name": "Nguyễn lords"
+  },
+  {
+   "id": "entity:54f06e3fe471",
+   "name": "Union of Utrecht"
+  },
+  {
+   "id": "entity:0240bd54c57f",
+   "name": "Iberian Union"
+  },
+  {
+   "id": "entity:421a1698045d",
+   "name": "Mataram Sultanate"
+  },
+  {
+   "id": "entity:bd839c5d2486",
+   "name": "Nalyvaiko Uprising"
+  },
+  {
+   "id": "entity:53e04d2da1ef",
+   "name": "Tokugawa Shogunate"
+  },
+  {
+   "id": "entity:3d3bbb4b219b",
+   "name": "English Colonial Empire"
+  },
+  {
+   "id": "entity:df27286bc5db",
+   "name": "Brandenburg-Prussia"
+  },
+  {
+   "id": "entity:be3d8f4cea04",
+   "name": "Sultanate of Sukadana"
+  },
+  {
+   "id": "entity:bc74e556f02c",
+   "name": "Sultanate of Sambas"
+  },
+  {
+   "id": "entity:951389255c42",
+   "name": "Sultanate of Mempawah"
+  },
+  {
+   "id": "entity:b16d6dd078ce",
+   "name": "Oirat Confederation"
+  },
+  {
+   "id": "entity:e08236da8389",
+   "name": "Huguenots"
+  },
+  {
+   "id": "entity:3e8f5870277f",
+   "name": "Sultanate of Bima"
+  },
+  {
+   "id": "entity:37fd57a7bd37",
+   "name": "Yarubid dynasty"
+  },
+  {
+   "id": "entity:e017640f7e8a",
+   "name": "Li Zicheng"
+  },
+  {
+   "id": "entity:6c1a2021237c",
+   "name": "Kalmyk Khanate"
+  },
+  {
+   "id": "entity:856b14ee48d8",
+   "name": "Wadai Empire"
+  },
+  {
+   "id": "entity:fe43994e3205",
+   "name": "New Sweden"
+  },
+  {
+   "id": "entity:84eeadd7f5ea",
+   "name": "Commonwealth of England"
+  },
+  {
+   "id": "entity:60086ef04440",
+   "name": "Kutai Kingdom"
+  },
+  {
+   "id": "entity:99cf6416def3",
+   "name": "Dutch Cape Colony"
+  },
+  {
+   "id": "entity:1876a64c0c8e",
+   "name": "Danish Gold Coast"
+  },
+  {
+   "id": "entity:2d48fbe3791c",
+   "name": "Sultanate of Jambi"
+  },
+  {
+   "id": "entity:c1936215da57",
+   "name": "French India"
+  },
+  {
+   "id": "entity:7991df95b79c",
+   "name": "Thanjavur Maratha Kingdom"
+  },
+  {
+   "id": "entity:f8c82408f5cb",
+   "name": "Dutch Ceylon"
+  },
+  {
+   "id": "entity:314ccd964ef6",
+   "name": "Cambodia"
+  },
+  {
+   "id": "entity:ee1365c3844e",
+   "name": "Kingdom of Prussia"
+  },
+  {
+   "id": "entity:54674d5cecda",
+   "name": "Pro-Swedish Poland"
+  },
+  {
+   "id": "entity:304422fa6750",
+   "name": "Beylik of Tunis"
+  },
+  {
+   "id": "entity:511fa8740288",
+   "name": "Vientiane"
+  },
+  {
+   "id": "entity:c4a0c4cea657",
+   "name": "Hotaki Dynasty"
+  },
+  {
+   "id": "entity:d510cab78353",
+   "name": "Electorate of Hanover"
+  },
+  {
+   "id": "entity:9f6a2c64d78e",
+   "name": "Khanate of Kokand"
+  },
+  {
+   "id": "entity:4e96f5a039c0",
+   "name": "Kingdom of Lunda"
+  },
+  {
+   "id": "entity:df80579f687c",
+   "name": "Karamanli Dynasty"
+  },
+  {
+   "id": "entity:2e5ca8576af3",
+   "name": "Carnatic Sultanate"
+  },
+  {
+   "id": "entity:300dd9b6963d",
+   "name": "Nawabs of Bengal"
+  },
+  {
+   "id": "entity:ae8a395adc4d",
+   "name": "Kingdom of Sardinia"
+  },
+  {
+   "id": "entity:3d7aa615b094",
+   "name": "Nawab of Awadh"
+  },
+  {
+   "id": "entity:ce2c387b79b1",
+   "name": "Sultanate of Terengganu"
+  },
+  {
+   "id": "entity:83c5313482d3",
+   "name": "Sultanate of Kutai Kartanegara"
+  },
+  {
+   "id": "entity:40a33537ba5e",
+   "name": "Kingdom of Bulungan"
+  },
+  {
+   "id": "entity:051b2672a3a9",
+   "name": "Konbaung Dynasty"
+  },
+  {
+   "id": "entity:ed57b8f95a17",
+   "name": "Sultanate of Oman"
+  },
+  {
+   "id": "entity:016e2ca08178",
+   "name": "Sultanate of Selangor"
+  },
+  {
+   "id": "entity:7fa0a7de179b",
+   "name": "Emirate of Diriyah"
+  },
+  {
+   "id": "entity:70eeaadfa455",
+   "name": "Surakarta Sunanate"
+  },
+  {
+   "id": "entity:5bc157ea8687",
+   "name": "Khanates of the Caucasus"
+  },
+  {
+   "id": "entity:58107b2aaaa6",
+   "name": "Durrani Empire"
+  },
+  {
+   "id": "entity:9d4f39e53c0a",
+   "name": "Zand Dynasty"
+  },
+  {
+   "id": "entity:4e8231509fe4",
+   "name": "Corsican Republic"
+  },
+  {
+   "id": "entity:3e84047c418f",
+   "name": "Danish India"
+  },
+  {
+   "id": "entity:324fb41de55e",
+   "name": "Kelantan"
+  },
+  {
+   "id": "entity:824e71acd884",
+   "name": "Kingdom of Naples (Napoleonic)"
+  },
+  {
+   "id": "entity:8e46140b1bd4",
+   "name": "Sikh Confederacy"
+  },
+  {
+   "id": "entity:08e90e86d53c",
+   "name": "Thonburi Kingdom"
+  },
+  {
+   "id": "entity:272ffb5de06a",
+   "name": "Pontianak Kadriyah Sultanate"
+  },
+  {
+   "id": "entity:03f94493a14f",
+   "name": "Negeri Sembilan"
+  },
+  {
+   "id": "entity:9f47971416d6",
+   "name": "Chiangmai"
+  },
+  {
+   "id": "entity:0e1d589f58b7",
+   "name": "Nepal"
+  },
+  {
+   "id": "entity:f0934fada91c",
+   "name": "Kingdom of Hawaï'i"
+  },
+  {
+   "id": "entity:42eb9b9ee6ac",
+   "name": "(French First Republic)"
+  },
+  {
+   "id": "entity:1d263979b4e8",
+   "name": "French First Republic"
+  },
+  {
+   "id": "entity:763f57110905",
+   "name": "Merina Kingdom"
+  },
+  {
+   "id": "entity:de91ebd7ef3a",
+   "name": "British Ceylon"
+  },
+  {
+   "id": "entity:23a9b1dcdf39",
+   "name": "Cisalpine Republic"
+  },
+  {
+   "id": "entity:f4a73a33bcd2",
+   "name": "Septinsular Republic"
+  },
+  {
+   "id": "entity:da12ebdb4fc2",
+   "name": "French Louisiana"
+  },
+  {
+   "id": "entity:a787e57a1e8e",
+   "name": "Napoleonic Batavia Republic"
+  },
+  {
+   "id": "entity:a420d31123df",
+   "name": "Electorate of Württemberg"
+  },
+  {
+   "id": "entity:602bc18571a9",
+   "name": "Kingdom of Hanover"
+  },
+  {
+   "id": "entity:6a66bbfbe53d",
+   "name": "Electorate of Baden"
+  },
+  {
+   "id": "entity:705901bdf1e0",
+   "name": "Empire of Haiti"
+  },
+  {
+   "id": "entity:b1b86fba3a66",
+   "name": "Muhammad Ali dynasty"
+  },
+  {
+   "id": "entity:ea890b520da0",
+   "name": "(First French Empire)"
+  },
+  {
+   "id": "entity:77a22c77b859",
+   "name": "First French Empire"
+  },
+  {
+   "id": "entity:72d0794bcb7d",
+   "name": "Duchy of Nassau"
+  },
+  {
+   "id": "entity:fbb575aeb8d1",
+   "name": "Saxe-Altenburg"
+  },
+  {
+   "id": "entity:3596db58e9f5",
+   "name": "Grand Duchy of Baden"
+  },
+  {
+   "id": "entity:1dcc41153e03",
+   "name": "Austrian Empire"
+  },
+  {
+   "id": "entity:933d49dd7e3f",
+   "name": "Free City of Bremen"
+  },
+  {
+   "id": "entity:4d98fb8ab562",
+   "name": "Duchy of Oldenburg"
+  },
+  {
+   "id": "entity:3c2cde3ea72e",
+   "name": "Free City of Lübeck"
+  },
+  {
+   "id": "entity:b30baa78d6e5",
+   "name": "Principality of Regensberg"
+  },
+  {
+   "id": "entity:c4d4507d0667",
+   "name": "Principality of Lippe"
+  },
+  {
+   "id": "entity:94c3bc38385e",
+   "name": "Grand Duchy of Würzburg"
+  },
+  {
+   "id": "entity:e0197010614e",
+   "name": "Grand Duchy of Hesse"
+  },
+  {
+   "id": "entity:68b9c25411e3",
+   "name": "Principality of Hohenzollern-Sigmaringen"
+  },
+  {
+   "id": "entity:384e9db6bb73",
+   "name": "Grand Duchy of Berg"
+  },
+  {
+   "id": "entity:b3c632a15f59",
+   "name": "Duchy of Warsaw"
+  },
+  {
+   "id": "entity:43ac7f3569c6",
+   "name": "Kingdom of Westphalia"
+  },
+  {
+   "id": "entity:fdbca944a7fa",
+   "name": "New Granada"
+  },
+  {
+   "id": "entity:83ce957bee8e",
+   "name": "Guayaquil Junta"
+  },
+  {
+   "id": "entity:42e7a3ffc607",
+   "name": "Omani Slave Coast"
+  },
+  {
+   "id": "entity:39c453eabd1e",
+   "name": "Cundinamarca"
+  },
+  {
+   "id": "entity:de79657d65ed",
+   "name": "Sovereign Principality of the United Netherlands"
+  },
+  {
+   "id": "entity:6dd1f4beab97",
+   "name": "Bourbon Kingdom of France"
+  },
+  {
+   "id": "entity:4a881b554ab0",
+   "name": "Duchy of Parma and Piacenza"
+  },
+  {
+   "id": "entity:31c682922b86",
+   "name": "Kingdom of the Two Sicilies"
+  },
+  {
+   "id": "entity:833d562dc57a",
+   "name": "(Bourbon Kingdom of France)"
+  },
+  {
+   "id": "entity:9785346f5c9d",
+   "name": "Duchy of Modena and Reggio"
+  },
+  {
+   "id": "entity:c77c2af313b0",
+   "name": "German Confederation"
+  },
+  {
+   "id": "entity:1dc9d659654b",
+   "name": "Principality of Schwarzburg-Sonderhausen"
+  },
+  {
+   "id": "entity:30751e28edc9",
+   "name": "Talpur Dynasty"
+  },
+  {
+   "id": "entity:915b87aaa4ba",
+   "name": "Saxe-Meiningen"
+  },
+  {
+   "id": "entity:5a3c881d7394",
+   "name": "Zululand"
+  },
+  {
+   "id": "entity:8ab0c7eae099",
+   "name": "Trucial States"
+  },
+  {
+   "id": "entity:1c80506f238d",
+   "name": "Free City of Frankfurt"
+  },
+  {
+   "id": "entity:88fe1d32e6e3",
+   "name": "Riau-Lingga Sultanate"
+  },
+  {
+   "id": "entity:a1a228161c9c",
+   "name": "First Mexican Empire"
+  },
+  {
+   "id": "entity:8611aab90a63",
+   "name": "First Hellenic Republic"
+  },
+  {
+   "id": "entity:dd6e29553124",
+   "name": "Emirate of Nejd"
+  },
+  {
+   "id": "entity:493a99cf5b8a",
+   "name": "Emirate of Jabal Shammar"
+  },
+  {
+   "id": "entity:1ff16834228f",
+   "name": "Sultanate of Sambaliung"
+  },
+  {
+   "id": "entity:8ea4b09a37e0",
+   "name": "Peru-Bolivian Confederation"
+  },
+  {
+   "id": "entity:7bcaea840e1f",
+   "name": "Riograndense Republic"
+  },
+  {
+   "id": "entity:24454a791888",
+   "name": "Republic of Texas"
+  },
+  {
+   "id": "entity:7bd986ac13ed",
+   "name": "Durrani Dynasty"
+  },
+  {
+   "id": "entity:f71197a952bd",
+   "name": "Republic of the Rio Grande"
+  },
+  {
+   "id": "entity:11760e1aac43",
+   "name": "Guatemala"
+  },
+  {
+   "id": "entity:ff5b0792b327",
+   "name": "Republic of Nicaragua"
+  },
+  {
+   "id": "entity:105b3bc34c4d",
+   "name": "Los Altos"
+  },
+  {
+   "id": "entity:9bb0c3877be4",
+   "name": "Kingdom of Sarawak"
+  },
+  {
+   "id": "entity:6a53d998a001",
+   "name": "Kedah-Perlis District"
+  },
+  {
+   "id": "entity:1902335ccf5b",
+   "name": "Kashmir and Jammu"
+  },
+  {
+   "id": "entity:1d3d4fba6d6b",
+   "name": "French Africa"
+  },
+  {
+   "id": "entity:2235b351111a",
+   "name": "(French Second Republic)"
+  },
+  {
+   "id": "entity:739f5c9259a5",
+   "name": "French Second Republic"
+  },
+  {
+   "id": "entity:f483b4f9bf62",
+   "name": "Duchy of Holstein"
+  },
+  {
+   "id": "entity:ce222c3cbf58",
+   "name": "Pahang Sultanate"
+  },
+  {
+   "id": "entity:6ec798183551",
+   "name": "Republic of Baja California"
+  },
+  {
+   "id": "entity:58289770a790",
+   "name": "State of Buenos Aires"
+  },
+  {
+   "id": "entity:b9967e88983d",
+   "name": "New Caledonia"
+  },
+  {
+   "id": "entity:4318eb74a41f",
+   "name": "People's Republic of Zanzibar"
+  },
+  {
+   "id": "entity:21683199d2a5",
+   "name": "Granadine Confederation"
+  },
+  {
+   "id": "entity:fcdf37cb4908",
+   "name": "Confederate States of America"
+  },
+  {
+   "id": "entity:7574f9f096a4",
+   "name": "United States of Colombia"
+  },
+  {
+   "id": "entity:1f22c12cd805",
+   "name": "Mexican Monarchists"
+  },
+  {
+   "id": "entity:8b7396926a2c",
+   "name": "Second Mexican Empire"
+  },
+  {
+   "id": "entity:8a9dd2db6eef",
+   "name": "Khedivate of Egypt"
+  },
+  {
+   "id": "entity:dfbb4c10a7a8",
+   "name": "North German Confederation"
+  },
+  {
+   "id": "entity:26357afd18ff",
+   "name": "German Africa"
+  },
+  {
+   "id": "entity:2e11e047ca00",
+   "name": "French Third Republic"
+  },
+  {
+   "id": "entity:abb0eb466c14",
+   "name": "(French Third Republic)"
+  },
+  {
+   "id": "entity:4c261daed939",
+   "name": "Kingdom of Fiji"
+  },
+  {
+   "id": "entity:abc7ffd5cd0b",
+   "name": "British Gold Coast"
+  },
+  {
+   "id": "entity:55a2a2124dab",
+   "name": "Nieuwe Republiek"
+  },
+  {
+   "id": "entity:ddb90499bc76",
+   "name": "Italian Africa"
+  },
+  {
+   "id": "entity:c5058b681952",
+   "name": "New Hebrides"
+  },
+  {
+   "id": "entity:1fa4e1203376",
+   "name": "Belgian Congo"
+  },
+  {
+   "id": "entity:514757b0c688",
+   "name": "Sultanate of Muscat and Oman"
+  },
+  {
+   "id": "entity:0f1225039b65",
+   "name": "Republic of Panama"
+  },
+  {
+   "id": "entity:1f3ec8ddb979",
+   "name": "Maderistas"
+  },
+  {
+   "id": "entity:57b38bc60507",
+   "name": "Republic of Uryankhay"
+  },
+  {
+   "id": "entity:705f15ce6320",
+   "name": "Republic of China"
+  },
+  {
+   "id": "entity:bdfc5586768e",
+   "name": "Kingdom of Hejaz"
+  },
+  {
+   "id": "entity:33b0177d9625",
+   "name": "Empire of China"
+  },
+  {
+   "id": "entity:03effb8c6b6a",
+   "name": "Asir"
+  },
+  {
+   "id": "entity:903d1451a348",
+   "name": "Polish Armed Forces"
+  },
+  {
+   "id": "entity:3d02b8c67b1a",
+   "name": "Kingdom of Iceland"
+  },
+  {
+   "id": "entity:b65024316d76",
+   "name": "North Yemen"
+  },
+  {
+   "id": "entity:e5b5efa86664",
+   "name": "Kingdom of Lithuania"
+  },
+  {
+   "id": "entity:f23f7abbefd6",
+   "name": "Republics of the Soviet Union"
+  },
+  {
+   "id": "entity:bc71b09027a9",
+   "name": "French Mandate for Syria and Lebanon"
+  },
+  {
+   "id": "entity:1bf3cffd5f6c",
+   "name": "Irish Free State"
+  },
+  {
+   "id": "entity:9452a54b59d3",
+   "name": "Kingdom of Afghanistan"
+  },
+  {
+   "id": "entity:c4cd07d770c5",
+   "name": "Mongolian People's Republic"
+  },
+  {
+   "id": "entity:ba4902f4ef42",
+   "name": "Kingdom of Hejaz and Nejd"
+  },
+  {
+   "id": "entity:956e0cf49fb5",
+   "name": "Estado Novo"
+  },
+  {
+   "id": "entity:5e442974c6b6",
+   "name": "Anti-Kuomintang Coalition"
+  },
+  {
+   "id": "entity:d1f21fc29012",
+   "name": "Éire"
+  },
+  {
+   "id": "entity:8c746ea57916",
+   "name": "Second Syrian Republic"
+  },
+  {
+   "id": "entity:353e96cc522e",
+   "name": "Kingdom of Libya"
+  },
+  {
+   "id": "entity:88d4f7b6919d",
+   "name": "Kingdom of Laos"
+  },
+  {
+   "id": "entity:7f8d0edb27cd",
+   "name": "Democratic Republic of Vietnam"
+  },
+  {
+   "id": "entity:317dbac90743",
+   "name": "Ghana"
+  },
+  {
+   "id": "entity:03f53c73d2d5",
+   "name": "Cuban Communists"
+  },
+  {
+   "id": "entity:f0ad3315002a",
+   "name": "Arab Federation"
+  },
+  {
+   "id": "entity:b47b54fd3a46",
+   "name": "Guinea"
+  },
+  {
+   "id": "entity:30949d5f4a69",
+   "name": "Togo"
+  },
+  {
+   "id": "entity:0255a2e0b0ca",
+   "name": "British East Africa"
+  },
+  {
+   "id": "entity:85fa355bdb4f",
+   "name": "Mauritania"
+  },
+  {
+   "id": "entity:bd51f3616c43",
+   "name": "Republic of Uganda"
+  },
+  {
+   "id": "entity:83f9d5c7d17e",
+   "name": "Sultanate of Zanzibar"
+  },
+  {
+   "id": "entity:0ce65b26dcd3",
+   "name": "Malawi"
+  },
+  {
+   "id": "entity:af1286841f52",
+   "name": "Saint Kitts"
+  },
+  {
+   "id": "entity:530670dca740",
+   "name": "Antigua and Barbuda"
+  },
+  {
+   "id": "entity:6bdee2f7019f",
+   "name": "Libyan Arab Republic"
+  },
+  {
+   "id": "entity:dc9346fdb446",
+   "name": "People's Democratic Republic of Yemen"
+  },
+  {
+   "id": "entity:cb9ee34129ba",
+   "name": "Zaire"
+  },
+  {
+   "id": "entity:dbf2a2da6458",
+   "name": "Grenada"
+  },
+  {
+   "id": "entity:77bccd54c522",
+   "name": "People's Republic of Kampuchea"
+  },
+  {
+   "id": "entity:6ebd87f5512a",
+   "name": "Commonwealth of Dominica"
+  },
+  {
+   "id": "entity:313036b33ef1",
+   "name": "Zimbabwe Rhodesia"
+  },
+  {
+   "id": "entity:673b1cf863c8",
+   "name": "Saint Lucia"
+  },
+  {
+   "id": "entity:ecae78abec52",
+   "name": "Solomon Islands"
+  },
+  {
+   "id": "entity:72aa2af3bdac",
+   "name": "Russian-occupied territories"
+  },
+  {
+   "id": "entity:6c45443c72b7",
+   "name": "(Commonwealth of Nations)"
+  }
+ ]
+}

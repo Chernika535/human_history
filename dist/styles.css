@@ -88,3 +88,5 @@
 [data-theme="light"] .chapter .eyebrow[style]{color:#234c70!important}
 
 [data-theme="light"] #toast{background:#f8fafcfa;color:#183851;border-color:#55789566}
+
+.historical-account{margin:1.5rem 0 2rem}.historical-account h3,.native-names h3{font-family:var(--font-serif,Georgia,serif);font-size:1.45rem;line-height:1.25;margin-bottom:1rem}.historical-account p{font-size:1rem;line-height:1.85;margin:0 0 1.15rem}.account-attribution{font-size:.78rem;line-height:1.6;opacity:.85}.account-attribution summary{cursor:pointer;padding:.5rem 0}.account-attribution p{font-size:.78rem}.native-names{padding:1rem 0;border-block:1px solid var(--border,rgba(160,180,210,.25));margin:1.25rem 0}.native-names p{line-height:1.8;overflow-wrap:anywhere}
