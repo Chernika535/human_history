@@ -1401,5 +1401,20 @@
  "Яркие области и пунктир: государства и культурные ареалы": "Bright areas and dotted areas: states and cultural areas",
  "Яркие политические области показаны поверх региональных историй. Отсутствие государства в наборе не означает отсутствия жителей, хозяйства, культуры или правил землепользования.": "Vibrant political domains are shown above regional histories, and the absence of a state in the set does not mean the absence of residents, economies, cultures, or land-use rules.",
  "Анимизм и тотемические связи — сравнительные понятия. Их фильтры показывают исторические и этнографические обзоры с 1500 года; это ограничение данных, а не дата возникновения практик. Многобожие и почитание предков доступны и для более ранних письменных свидетельств.": "Animism and totemic connections are comparative concepts, and their filters show historical and ethnographic surveys from 1500; they're data limitations, not dates of practice, and polytheism and ancestral worship are available for earlier written evidence.",
- "Как читать слои карты?": "How do you read the layers of the map?"
+ "Как читать слои карты?": "How do you read the layers of the map?",
+ "Бирюзовые сплошные линии показывают торговлю и обмен. Коралловый пунктир — колониальную зависимость. Цвет точки соответствует типу её связей; белая точка участвует в нескольких типах.": "The turquoise solid lines show trade and exchange. The coral dotted line is colonial dependency. The color of the dot corresponds to the type of connections; the white dot is involved in several types.",
+ "Для этого года и фильтра связей пока нет": "For this year, there is no link filter yet.",
+ "Для этого года и фильтра связи ещё не добавлены. Попробуйте другой год или готовую историю.": "For this year, you haven't added a link filter yet. Try another year or a finished story.",
+ "Линия соединяет участников и не обозначает точный исторический маршрут.": "The line connects participants and does not indicate the exact historical route.",
+ "Мир связей": "Connected world",
+ "Нажмите на линию или участника, чтобы узнать о товарах, встречных потоках, выгодах и издержках. Линия не воспроизводит точный путь: обмен мог идти через посредников. На карте показаны только связи, добавленные для выбранного года.": "Click on a line or participant to learn about goods, oncoming flows, benefits and costs. The line does not reproduce the exact path: the exchange could have been through intermediaries. The map shows only the links added for the selected year.",
+ "Новгород и ганзейские купцы · 1250": "Novgorod and Hanseatic merchants · 1250",
+ "СВЯЗИ В ВЫБРАННОМ ГОДУ": "Communications in the selected year",
+ "Связь": "Connection",
+ "Серебро и колониальная зависимость · 1600": "Silver and Colonial Dependence 1600",
+ "Сплошная бирюзовая линия — торговля; коралловый пунктир — колониальная зависимость. Белая точка участвует в разных типах отношений. Нажмите на точку или линию, чтобы открыть описание.": "The solid turquoise line is trade; the coral dotted line is colonial addiction. The white dot is involved in different types of relationships. Click on the dot or line to open the description.",
+ "Типы связей": "Types of connections",
+ "связей": "linkage",
+ "связей ·": "linkage",
+ "участников ·": "participants"
 }

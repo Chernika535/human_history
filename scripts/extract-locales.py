@@ -25,7 +25,7 @@ def descend(j):
 for p in [root/'dist/data/history.json',root/'dist/data/editorial-areas.geojson']:descend(json.loads(p.read_text()))
 markup((root/'dist/index.html').read_text())
 parser=Parser(Language(js.language()))
-for name in ['app.js','core.js','globe.js','regional-history.js','area-history.js','landscapes.js','world-beliefs.js']:
+for name in ['app.js','core.js','globe.js','regional-history.js','area-history.js','landscapes.js','world-beliefs.js','relations.js']:
  source=(root/'dist'/name).read_bytes();tree=parser.parse(source)
  def visit(n):
   if n.type=='string':
