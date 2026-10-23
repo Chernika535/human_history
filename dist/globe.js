@@ -1,8 +1,8 @@
 import {getTheme,globePalette,lightRelationColors} from './theme.js';
 import {relationStyle,segmentDistance,relationLane,projectedRelation} from './relations.js';
-import {translateText as tx} from './i18n.js?v=0.9.0';
+import {translateText as tx} from './i18n.js?v=0.10.0';
 import {GlobeGesture,clampZoom} from './gestures.js';
-import {areaColor,areaName} from './territories.js?v=0.9.0';
+import {areaColor,areaName} from './territories.js?v=0.10.0';
 /* Orthographic globe rendered locally with D3. Geography: Natural Earth, public domain. */
 export class Globe {
  constructor(canvas,land,onSelect){this.canvas=canvas;this.ctx=canvas.getContext('2d');this.land=land;this.onSelect=onSelect;this.rotation=[-18,-20,0];this.zoom=1;this.records=[];this.links=[];this.mode='cultures';this.selected=null;this.colors=()=> '#d5b879';this.tooltip=document.getElementById('tooltip');this.raf=0;this.panel=null;this.areas=[];this.showPoints=true;this.selectedArea=null;this.spinning=false;this.spinRaf=0;
